@@ -39,7 +39,7 @@ const Navbar = () => {
   const [isDarkTheme, setIsDarkTheme] = useState(true);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-black/30 backdrop-blur-lg">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-purple-600 via-indigo-900 to-slate-950 bg-[length:200%_200%] animate-gradient-xy">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <a href="#" className="flex items-center text-xl font-bold tracking-wider text-white">
           <img

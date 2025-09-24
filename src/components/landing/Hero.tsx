@@ -8,6 +8,7 @@ const Hero = () => {
         loop
         muted
         playsInline
+        poster="/images/imag1.jpeg"
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
       >
         <source src="/intro.mp4" type="video/mp4" />

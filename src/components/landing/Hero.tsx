@@ -28,10 +28,10 @@ const Hero = () => {
           Deportista de Alto Rendimiento
         </p>
         <div className="mt-8 flex flex-col sm:flex-row gap-4">
-          <Button size="lg" className="bg-white text-black hover:bg-gray-200">
+          <Button size="lg" className="bg-purple-600 text-white hover:bg-purple-700">
             Apóyame
           </Button>
-          <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+          <Button size="lg" variant="outline" className="border-white text-white bg-transparent hover:bg-white/10">
             Contáctame
           </Button>
         </div>

@@ -2,6 +2,12 @@
 
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import { Instagram, Twitter, Languages, Sun, Moon, Menu, Facebook, Youtube } from "lucide-react";
 import { useState } from "react";
 
@@ -18,6 +24,16 @@ const MobileNavLink = ({ href, children }) => (
     </a>
   </SheetClose>
 );
+
+const languages = [
+  { name: "Inglés" },
+  { name: "Francés" },
+  { name: "Italiano" },
+  { name: "Portugués" },
+  { name: "Alemán" },
+  { name: "Chino" },
+  { name: "Japonés" },
+];
 
 const Navbar = () => {
   const [isDarkTheme, setIsDarkTheme] = useState(true);
@@ -48,7 +64,22 @@ const Navbar = () => {
           <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors"><Twitter size={20} /></a>
           <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors"><Facebook size={20} /></a>
           <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors"><Youtube size={20} /></a>
-          <Button variant="ghost" size="icon" className="text-gray-300 hover:text-white hover:bg-white/10"><Languages size={20} /></Button>
+          
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button variant="ghost" size="icon" className="text-gray-300 hover:text-white hover:bg-white/10">
+                <Languages size={20} />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="bg-gray-900/95 text-white border-gray-800">
+              {languages.map((lang) => (
+                <DropdownMenuItem key={lang.name} className="hover:bg-white/10 focus:bg-white/10">
+                  {lang.name}
+                </DropdownMenuItem>
+              ))}
+            </DropdownMenuContent>
+          </DropdownMenu>
+
           <Button variant="ghost" size="icon" onClick={() => setIsDarkTheme(!isDarkTheme)} className="text-gray-300 hover:text-white hover:bg-white/10">
             {isDarkTheme ? <Sun size={20} /> : <Moon size={20} />}
           </Button>

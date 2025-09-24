@@ -1,11 +1,15 @@
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import { Target, Heart, Shield, Link as LinkIcon } from "lucide-react";
+import { Target, Heart, Shield, Link as LinkIcon, Users, Award, TrendingUp, Scale } from "lucide-react";
 
 const values = [
   { icon: <Target className="h-8 w-8 text-purple-400" />, title: "Disciplina", description: "Compromiso diario con la excelencia y la mejora continua." },
   { icon: <Heart className="h-8 w-8 text-purple-400" />, title: "Pasión", description: "El motor que impulsa cada entrenamiento y competencia." },
   { icon: <Shield className="h-8 w-8 text-purple-400" />, title: "Resiliencia", description: "Superar obstáculos y convertir los desafíos en oportunidades." },
   { icon: <LinkIcon className="h-8 w-8 text-purple-400" />, title: "Compromiso", description: "Lealtad a mis metas, mi equipo y mis patrocinadores." },
+  { icon: <Users className="h-8 w-8 text-purple-400" />, title: "Trabajo en Equipo", description: "La unión hace la fuerza. Colaborar para alcanzar metas comunes." },
+  { icon: <Award className="h-8 w-8 text-purple-400" />, title: "Respeto", description: "Valorar a rivales, compañeros y las reglas del juego." },
+  { icon: <TrendingUp className="h-8 w-8 text-purple-400" />, title: "Superación", description: "El deseo constante de romper mis propios límites." },
+  { icon: <Scale className="h-8 w-8 text-purple-400" />, title: "Integridad", description: "Competir con honestidad y jugar limpio en todo momento." },
 ];
 
 const Valores = () => {

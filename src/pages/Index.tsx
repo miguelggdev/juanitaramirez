@@ -14,18 +14,20 @@ import { MadeWithDyad } from "@/components/made-with-dyad";
 
 const Index = () => {
   return (
-    <div className="bg-gradient-to-b from-purple-600 via-indigo-900 to-slate-950 bg-[length:100%_300%] animate-gradient-y text-white">
+    <div className="bg-slate-950 text-white">
       <Navbar />
       <main>
         <Hero />
-        <AnimatedSection><Profile /></AnimatedSection>
-        <AnimatedSection><MiCamino /></AnimatedSection>
-        <AnimatedSection><Logros /></AnimatedSection>
-        <AnimatedSection><Galeria /></AnimatedSection>
-        <AnimatedSection><Valores /></AnimatedSection>
-        <AnimatedSection><Patrocinadores /></AnimatedSection>
-        <AnimatedSection><Apoyame /></AnimatedSection>
-        <AnimatedSection><Contacto /></AnimatedSection>
+        <div className="bg-gradient-to-b from-purple-600 via-indigo-900 to-slate-950 bg-[length:100%_300%] animate-gradient-y">
+          <AnimatedSection><Profile /></AnimatedSection>
+          <AnimatedSection><MiCamino /></AnimatedSection>
+          <AnimatedSection><Logros /></AnimatedSection>
+          <AnimatedSection><Galeria /></AnimatedSection>
+          <AnimatedSection><Valores /></AnimatedSection>
+          <AnimatedSection><Patrocinadores /></AnimatedSection>
+          <AnimatedSection><Apoyame /></AnimatedSection>
+          <AnimatedSection><Contacto /></AnimatedSection>
+        </div>
       </main>
       <Footer />
       <MadeWithDyad />

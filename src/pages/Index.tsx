@@ -14,7 +14,7 @@ import { MadeWithDyad } from "@/components/made-with-dyad";
 
 const Index = () => {
   return (
-    <div className="text-white">
+    <div className="bg-slate-950 text-white">
       <Navbar />
       <main>
         <Hero />

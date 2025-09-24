@@ -42,7 +42,7 @@ const Apoyame = () => {
                 {wishlistItems.map(item => (
                   <Card key={item.name} className="bg-white/5 backdrop-blur-md border border-white/10">
                     <CardHeader>
-                      <CardTitle>{item.name}</CardTitle>
+                      <CardTitle className="text-white font-bold">{item.name}</CardTitle>
                     </CardHeader>
                     <CardContent>
                       <Progress value={(item.current / item.goal) * 100} className="w-full" />
@@ -60,7 +60,7 @@ const Apoyame = () => {
                 {fanClubTiers.map(tier => (
                   <Card key={tier.name} className="bg-white/5 backdrop-blur-md border border-white/10 flex flex-col">
                     <CardHeader>
-                      <CardTitle className="text-purple-400">{tier.name}</CardTitle>
+                      <CardTitle className="text-white font-bold">{tier.name}</CardTitle>
                       <CardDescription className="text-3xl font-bold">${tier.price}<span className="text-sm font-normal text-gray-400">/mes</span></CardDescription>
                     </CardHeader>
                     <CardContent className="flex-grow">
@@ -81,7 +81,7 @@ const Apoyame = () => {
             </TabsContent>
             <TabsContent value="donate" className="mt-8">
               <Card className="bg-white/5 backdrop-blur-md border border-white/10 text-center p-8">
-                <CardTitle>Realiza una Donación Única</CardTitle>
+                <CardTitle className="text-white font-bold">Realiza una Donación Única</CardTitle>
                 <CardDescription className="mt-2 mb-6">Cualquier cantidad hace una gran diferencia.</CardDescription>
                 <Button onClick={() => setIsModalOpen(true)} size="lg" className="bg-purple-600 hover:bg-purple-700">Donar Ahora</Button>
               </Card>

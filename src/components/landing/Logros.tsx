@@ -24,7 +24,7 @@ const achievements = [
 
 const Logros = () => {
   return (
-    <section id="logros" className="py-20 sm:py-32 bg-gray-900 text-white">
+    <section id="logros" className="py-20 sm:py-32">
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 tracking-tight">
           Logros Destacados
@@ -36,9 +36,9 @@ const Logros = () => {
               <div className={`w-5/12 ${index % 2 === 0 ? 'order-1 text-right' : 'order-3 text-left'}`}>
                 <p className="text-purple-400 font-semibold">{item.year}</p>
               </div>
-              <div className="z-10 order-2 bg-purple-600 rounded-full h-4 w-4"></div>
+              <div className="z-10 order-2 bg-purple-600 rounded-full h-4 w-4 ring-4 ring-purple-900"></div>
               <div className={`w-5/12 ${index % 2 === 0 ? 'order-3' : 'order-1'}`}>
-                <Card className="bg-gray-800/50 border-purple-800/50">
+                <Card className="bg-white/5 backdrop-blur-md border border-white/10">
                   <CardHeader className="flex flex-row items-center gap-4 pb-2">
                     {item.icon}
                     <CardTitle className="text-lg">{item.title}</CardTitle>

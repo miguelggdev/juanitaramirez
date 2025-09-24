@@ -1,6 +1,6 @@
 const VideoHighlight = () => {
   return (
-    <section id="video" className="py-20 sm:py-32 bg-gray-900">
+    <section id="video" className="py-20 sm:py-32">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-white">
@@ -10,7 +10,7 @@ const VideoHighlight = () => {
             Siente la velocidad y la adrenalina de la competencia. Este es un vistazo a la dedicación y el esfuerzo en cada carrera.
           </p>
         </div>
-        <div className="max-w-4xl mx-auto shadow-2xl rounded-lg overflow-hidden border-2 border-purple-800/50">
+        <div className="max-w-4xl mx-auto shadow-2xl rounded-lg overflow-hidden border border-white/20 shadow-purple-500/20">
           <video
             controls
             playsInline

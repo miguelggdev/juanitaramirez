@@ -1,15 +1,14 @@
 const Profile = () => {
   return (
-    <section id="perfil" className="py-20 sm:py-32 bg-gray-900 text-white">
+    <section id="perfil" className="py-20 sm:py-32">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="bg-black/20 backdrop-blur-md rounded-xl border border-white/10 p-8 md:p-12 grid md:grid-cols-2 gap-12 items-center">
           <div className="relative">
             <img
               src="/images/imag1.jpeg"
               alt="Emmy Juanita Ramirez Mora"
               className="rounded-lg shadow-2xl w-full h-auto object-cover aspect-[4/5]"
             />
-            <div className="absolute inset-0 bg-purple-900/20 mix-blend-soft-light rounded-lg"></div>
           </div>
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6 tracking-tight">

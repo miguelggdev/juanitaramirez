@@ -23,7 +23,7 @@ const Apoyame = () => {
 
   return (
     <>
-      <section id="apoyame" className="py-20 sm:py-32 bg-gray-900 text-white">
+      <section id="apoyame" className="py-20 sm:py-32">
         <div className="container mx-auto px-4 md:px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 tracking-tight">
             Únete a mi Equipo
@@ -32,7 +32,7 @@ const Apoyame = () => {
             Tu apoyo es fundamental para alcanzar mis metas. Cada contribución me acerca más a la cima.
           </p>
           <Tabs defaultValue="wishlist" className="w-full max-w-4xl mx-auto">
-            <TabsList className="grid w-full grid-cols-3 bg-gray-800">
+            <TabsList className="grid w-full grid-cols-3 bg-black/20 backdrop-blur-md border border-white/10">
               <TabsTrigger value="wishlist">Lista de Deseos</TabsTrigger>
               <TabsTrigger value="fanclub">Club de Fans</TabsTrigger>
               <TabsTrigger value="donate">Aporte Único</TabsTrigger>
@@ -40,7 +40,7 @@ const Apoyame = () => {
             <TabsContent value="wishlist" className="mt-8">
               <div className="grid gap-6">
                 {wishlistItems.map(item => (
-                  <Card key={item.name} className="bg-gray-800/50 border-purple-800/50">
+                  <Card key={item.name} className="bg-white/5 backdrop-blur-md border border-white/10">
                     <CardHeader>
                       <CardTitle>{item.name}</CardTitle>
                     </CardHeader>
@@ -58,7 +58,7 @@ const Apoyame = () => {
             <TabsContent value="fanclub" className="mt-8">
               <div className="grid md:grid-cols-3 gap-6">
                 {fanClubTiers.map(tier => (
-                  <Card key={tier.name} className="bg-gray-800/50 border-purple-800/50 flex flex-col">
+                  <Card key={tier.name} className="bg-white/5 backdrop-blur-md border border-white/10 flex flex-col">
                     <CardHeader>
                       <CardTitle className="text-purple-400">{tier.name}</CardTitle>
                       <CardDescription className="text-3xl font-bold">${tier.price}<span className="text-sm font-normal text-gray-400">/mes</span></CardDescription>
@@ -80,7 +80,7 @@ const Apoyame = () => {
               </div>
             </TabsContent>
             <TabsContent value="donate" className="mt-8">
-              <Card className="bg-gray-800/50 border-purple-800/50 text-center p-8">
+              <Card className="bg-white/5 backdrop-blur-md border border-white/10 text-center p-8">
                 <CardTitle>Realiza una Donación Única</CardTitle>
                 <CardDescription className="mt-2 mb-6">Cualquier cantidad hace una gran diferencia.</CardDescription>
                 <Button onClick={() => setIsModalOpen(true)} size="lg" className="bg-purple-600 hover:bg-purple-700">Donar Ahora</Button>

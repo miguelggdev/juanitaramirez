@@ -15,7 +15,7 @@ import { MadeWithDyad } from "@/components/made-with-dyad";
 
 const Index = () => {
   return (
-    <div className="bg-gray-900 text-white">
+    <div className="bg-gradient-to-br from-indigo-900 via-purple-900 to-blue-900 bg-[length:400%_400%] animate-gradient-xy text-white">
       <Navbar />
       <main>
         <Hero />

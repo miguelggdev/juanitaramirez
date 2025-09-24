@@ -9,10 +9,13 @@ import {
 
 const images = [
   "/images/imag1.jpeg",
-  "https://via.placeholder.com/800x600/6b21a8/ffffff?text=Acción+1",
-  "https://via.placeholder.com/800x600/1e1b4b/ffffff?text=Podio",
-  "https://via.placeholder.com/800x600/4c1d95/ffffff?text=Entrenamiento",
-  "https://via.placeholder.com/800x600/312e81/ffffff?text=Equipo",
+  "/images/imag2.jpg",
+  "/images/imag3.jpg",
+  "/images/imag4.jpg",
+  "/images/imag5.jpg",
+  "/images/imag6.jpg",
+  "/images/imag7.jpg",
+  "/images/JuanitaRamirez.png",
 ];
 
 const Galeria = () => {

@@ -20,9 +20,9 @@ const Valores = () => {
             <Card key={index} className="bg-white/5 backdrop-blur-md border border-white/10 text-center p-6">
               <CardHeader>
                 <div className="mx-auto bg-black/20 rounded-full p-3 w-fit mb-4">{value.icon}</div>
-                <CardTitle className="text-xl">{value.title}</CardTitle>
+                <CardTitle className="text-xl font-bold text-white">{value.title}</CardTitle>
               </CardHeader>
-              <CardDescription className="text-gray-300">{value.description}</CardDescription>
+              <CardDescription className="text-white">{value.description}</CardDescription>
             </Card>
           ))}
         </div>

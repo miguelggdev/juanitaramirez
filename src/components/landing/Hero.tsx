@@ -23,7 +23,7 @@ const Hero = () => {
           className="w-36 h-36 rounded-full border-4 border-white/50 object-cover shadow-lg mb-6"
         />
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight">
-          Juanita Ramírez Mora
+          Emmy Juanita Ramírez Mora
         </h1>
         <p className="mt-4 text-lg md:text-xl text-gray-300">
           Deportista de Alto Rendimiento

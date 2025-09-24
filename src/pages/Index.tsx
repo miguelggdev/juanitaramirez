@@ -1,6 +1,14 @@
 import Navbar from "@/components/landing/Navbar";
 import Hero from "@/components/landing/Hero";
 import Profile from "@/components/landing/Profile";
+import MiCamino from "@/components/landing/MiCamino";
+import Logros from "@/components/landing/Logros";
+import Galeria from "@/components/landing/Galeria";
+import Valores from "@/components/landing/Valores";
+import Patrocinadores from "@/components/landing/Patrocinadores";
+import Apoyame from "@/components/landing/Apoyame";
+import Contacto from "@/components/landing/Contacto";
+import Footer from "@/components/landing/Footer";
 import { MadeWithDyad } from "@/components/made-with-dyad";
 
 const Index = () => {
@@ -10,20 +18,15 @@ const Index = () => {
       <main>
         <Hero />
         <Profile />
-        {/* Placeholder sections for future development */}
-        <div id="logros" className="min-h-screen flex items-center justify-center bg-black">
-          <h2 className="text-3xl font-bold">Logros (Próximamente)</h2>
-        </div>
-        <div id="galeria" className="min-h-screen flex items-center justify-center">
-          <h2 className="text-3xl font-bold">Galería (Próximamente)</h2>
-        </div>
-        <div id="apoyame" className="min-h-screen flex items-center justify-center bg-black">
-          <h2 className="text-3xl font-bold">Apóyame (Próximamente)</h2>
-        </div>
-        <div id="contacto" className="min-h-screen flex items-center justify-center">
-          <h2 className="text-3xl font-bold">Contacto (Próximamente)</h2>
-        </div>
+        <MiCamino />
+        <Logros />
+        <Galeria />
+        <Valores />
+        <Patrocinadores />
+        <Apoyame />
+        <Contacto />
       </main>
+      <Footer />
       <MadeWithDyad />
     </div>
   );

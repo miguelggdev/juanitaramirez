@@ -61,10 +61,10 @@ const Apoyame = () => {
                   <Card key={tier.name} className="bg-white/5 backdrop-blur-md border border-white/10 flex flex-col">
                     <CardHeader>
                       <CardTitle className="text-white font-bold">{tier.name}</CardTitle>
-                      <CardDescription className="text-3xl font-bold">${tier.price}<span className="text-sm font-normal text-gray-400">/mes</span></CardDescription>
+                      <CardDescription className="text-3xl font-bold text-white">${tier.price}<span className="text-sm font-normal text-gray-400">/mes</span></CardDescription>
                     </CardHeader>
                     <CardContent className="flex-grow">
-                      <ul className="space-y-2">
+                      <ul className="space-y-2 text-white">
                         {tier.features.map(feature => (
                           <li key={feature} className="flex items-center gap-2 text-sm">
                             <CheckCircle className="h-4 w-4 text-green-500" /> {feature}
@@ -73,7 +73,7 @@ const Apoyame = () => {
                       </ul>
                     </CardContent>
                     <CardFooter>
-                      <Button onClick={() => setIsModalOpen(true)} className="w-full bg-white text-black hover:bg-gray-200">Unirme</Button>
+                      <Button onClick={() => setIsModalOpen(true)} className="w-full bg-purple-600 hover:bg-purple-700">Unirme</Button>
                     </CardFooter>
                   </Card>
                 ))}

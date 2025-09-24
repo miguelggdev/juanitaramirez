@@ -95,11 +95,22 @@ export default {
             "background-position": "right center",
           },
         },
+        "gradient-y": {
+          "0%, 100%": {
+            "background-size": "100% 300%",
+            "background-position": "center top",
+          },
+          "50%": {
+            "background-size": "100% 300%",
+            "background-position": "center bottom",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "gradient-xy": "gradient-xy 15s ease infinite",
+        "gradient-y": "gradient-y 15s ease infinite",
       },
     },
   },

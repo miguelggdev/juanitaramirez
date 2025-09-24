@@ -47,7 +47,7 @@ const Navbar = () => {
             alt="Emmy Juanita Ramirez Mora Logo"
             className="w-8 h-8 rounded-full object-cover mr-3"
           />
-          <span>EMMY JUANITA</span>
+          <span>Juanita Ramírez</span>
         </a>
         
         {/* Desktop Navigation */}

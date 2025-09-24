@@ -1,5 +1,6 @@
 import Navbar from "@/components/landing/Navbar";
 import Hero from "@/components/landing/Hero";
+import VideoHighlight from "@/components/landing/VideoHighlight";
 import Profile from "@/components/landing/Profile";
 import MiCamino from "@/components/landing/MiCamino";
 import Logros from "@/components/landing/Logros";
@@ -18,6 +19,7 @@ const Index = () => {
       <Navbar />
       <main>
         <Hero />
+        <AnimatedSection><VideoHighlight /></AnimatedSection>
         <AnimatedSection><Profile /></AnimatedSection>
         <AnimatedSection><MiCamino /></AnimatedSection>
         <AnimatedSection><Logros /></AnimatedSection>

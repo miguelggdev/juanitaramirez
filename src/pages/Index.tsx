@@ -10,7 +10,7 @@ import Apoyame from "@/components/landing/Apoyame";
 import Contacto from "@/components/landing/Contacto";
 import Footer from "@/components/landing/Footer";
 import AnimatedSection from "@/components/landing/AnimatedSection";
-import { MadeWithDyad } from "@/components-made-with-dyad";
+import { MadeWithDyad } from "@/components/made-with-dyad";
 
 const Index = () => {
   return (

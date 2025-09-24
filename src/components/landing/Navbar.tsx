@@ -1,8 +1,23 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Instagram, Twitter, Languages, Sun, Moon } from "lucide-react";
+import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
+import { Instagram, Twitter, Languages, Sun, Moon, Menu, Facebook, Youtube } from "lucide-react";
 import { useState } from "react";
+
+const NavLink = ({ href, children }) => (
+  <a href={href} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">
+    {children}
+  </a>
+);
+
+const MobileNavLink = ({ href, children }) => (
+  <SheetClose asChild>
+    <a href={href} className="block py-2 text-lg text-gray-300 hover:text-white transition-colors">
+      {children}
+    </a>
+  </SheetClose>
+);
 
 const Navbar = () => {
   const [isDarkTheme, setIsDarkTheme] = useState(true);
@@ -18,36 +33,45 @@ const Navbar = () => {
           />
           <span>EMMY JUANITA</span>
         </a>
+        
+        {/* Desktop Navigation */}
         <nav className="hidden items-center gap-6 md:flex">
-          <a href="#perfil" className="text-sm font-medium text-gray-300 hover:text-white transition-colors">
-            Perfil
-          </a>
-          <a href="#logros" className="text-sm font-medium text-gray-300 hover:text-white transition-colors">
-            Logros
-          </a>
-          <a href="#galeria" className="text-sm font-medium text-gray-300 hover:text-white transition-colors">
-            Galería
-          </a>
-          <a href="#apoyame" className="text-sm font-medium text-gray-300 hover:text-white transition-colors">
-            Apóyame
-          </a>
-          <a href="#contacto" className="text-sm font-medium text-gray-300 hover:text-white transition-colors">
-            Contacto
-          </a>
+          <NavLink href="#perfil">Perfil</NavLink>
+          <NavLink href="#logros">Logros</NavLink>
+          <NavLink href="#galeria">Galería</NavLink>
+          <NavLink href="#apoyame">Apóyame</NavLink>
+          <NavLink href="#contacto">Contacto</NavLink>
         </nav>
-        <div className="flex items-center gap-4">
-          <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
-            <Instagram size={20} />
-          </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
-            <Twitter size={20} />
-          </a>
-          <Button variant="ghost" size="icon" className="text-gray-300 hover:text-white hover:bg-white/10">
-            <Languages size={20} />
-          </Button>
+
+        <div className="hidden items-center gap-4 md:flex">
+          <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors"><Instagram size={20} /></a>
+          <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors"><Twitter size={20} /></a>
+          <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors"><Facebook size={20} /></a>
+          <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors"><Youtube size={20} /></a>
+          <Button variant="ghost" size="icon" className="text-gray-300 hover:text-white hover:bg-white/10"><Languages size={20} /></Button>
           <Button variant="ghost" size="icon" onClick={() => setIsDarkTheme(!isDarkTheme)} className="text-gray-300 hover:text-white hover:bg-white/10">
             {isDarkTheme ? <Sun size={20} /> : <Moon size={20} />}
           </Button>
+        </div>
+
+        {/* Mobile Navigation */}
+        <div className="md:hidden">
+          <Sheet>
+            <SheetTrigger asChild>
+              <Button variant="ghost" size="icon" className="text-gray-300 hover:text-white hover:bg-white/10">
+                <Menu size={24} />
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="right" className="bg-gray-900/95 text-white border-l-gray-800">
+              <nav className="flex flex-col gap-4 mt-8">
+                <MobileNavLink href="#perfil">Perfil</MobileNavLink>
+                <MobileNavLink href="#logros">Logros</MobileNavLink>
+                <MobileNavLink href="#galeria">Galería</MobileNavLink>
+                <MobileNavLink href="#apoyame">Apóyame</MobileNavLink>
+                <MobileNavLink href="#contacto">Contacto</MobileNavLink>
+              </nav>
+            </SheetContent>
+          </Sheet>
         </div>
       </div>
     </header>

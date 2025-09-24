@@ -9,6 +9,7 @@ import Patrocinadores from "@/components/landing/Patrocinadores";
 import Apoyame from "@/components/landing/Apoyame";
 import Contacto from "@/components/landing/Contacto";
 import Footer from "@/components/landing/Footer";
+import AnimatedSection from "@/components/landing/AnimatedSection";
 import { MadeWithDyad } from "@/components/made-with-dyad";
 
 const Index = () => {
@@ -17,14 +18,14 @@ const Index = () => {
       <Navbar />
       <main>
         <Hero />
-        <Profile />
-        <MiCamino />
-        <Logros />
-        <Galeria />
-        <Valores />
-        <Patrocinadores />
-        <Apoyame />
-        <Contacto />
+        <AnimatedSection><Profile /></AnimatedSection>
+        <AnimatedSection><MiCamino /></AnimatedSection>
+        <AnimatedSection><Logros /></AnimatedSection>
+        <AnimatedSection><Galeria /></AnimatedSection>
+        <AnimatedSection><Valores /></AnimatedSection>
+        <AnimatedSection><Patrocinadores /></AnimatedSection>
+        <AnimatedSection><Apoyame /></AnimatedSection>
+        <AnimatedSection><Contacto /></AnimatedSection>
       </main>
       <Footer />
       <MadeWithDyad />

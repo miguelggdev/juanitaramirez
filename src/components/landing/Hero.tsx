@@ -10,8 +10,7 @@ const Hero = () => {
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover -z-20"
       >
-        {/* Puedes reemplazar este video de ejemplo por el tuyo */}
-        <source src="https://videos.pexels.com/video-files/8093321/8093321-hd_1920_1080_30fps.mp4" type="video/mp4" />
+        <source src="https://videos.pexels.com/video-files/4782055/4782055-hd_1920_1080_25fps.mp4" type="video/mp4" />
         Tu navegador no soporta la etiqueta de video.
       </video>
       <div className="absolute top-0 left-0 w-full h-full bg-black/60 -z-10"></div>

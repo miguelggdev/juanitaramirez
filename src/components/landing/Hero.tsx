@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-gray-900 via-purple-900/80 to-black animate-gradient-xy"></div>
       <div className="z-10 flex flex-col items-center">
         <img
-          src="https://via.placeholder.com/150"
+          src="/images/JuanitaRamirez.png"
           alt="Emmy Juanita Ramirez Mora"
           className="w-36 h-36 rounded-full border-4 border-white/50 object-cover shadow-lg mb-6"
         />

@@ -1,5 +1,6 @@
 import Navbar from "@/components/landing/Navbar";
 import Hero from "@/components/landing/Hero";
+import Profile from "@/components/landing/Profile";
 import { MadeWithDyad } from "@/components/made-with-dyad";
 
 const Index = () => {
@@ -8,10 +9,8 @@ const Index = () => {
       <Navbar />
       <main>
         <Hero />
+        <Profile />
         {/* Placeholder sections for future development */}
-        <div id="perfil" className="min-h-screen flex items-center justify-center">
-          <h2 className="text-3xl font-bold">Perfil (Próximamente)</h2>
-        </div>
         <div id="logros" className="min-h-screen flex items-center justify-center bg-black">
           <h2 className="text-3xl font-bold">Logros (Próximamente)</h2>
         </div>

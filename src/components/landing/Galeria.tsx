@@ -32,7 +32,7 @@ const Galeria = () => {
                 <div className="p-1">
                   <Card className="bg-transparent border-0">
                     <CardContent className="flex aspect-video items-center justify-center p-0">
-                      <img src={src} alt={`Galería imagen ${index + 1}`} className="rounded-lg object-cover w-full h-full" />
+                      <img src={src} alt={`Galería imagen ${index + 1}`} className="rounded-lg object-contain w-full h-full" />
                     </CardContent>
                   </Card>
                 </div>

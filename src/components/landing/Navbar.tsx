@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Instagram, Twitter, Languages, Sun, Moon, Zap } from "lucide-react";
+import { Instagram, Twitter, Languages, Sun, Moon } from "lucide-react";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -11,9 +11,11 @@ const Navbar = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/30 backdrop-blur-lg">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <a href="#" className="flex items-center text-xl font-bold tracking-wider text-white">
-          <div className="flex items-center justify-center w-8 h-8 rounded-full bg-purple-600 mr-3">
-            <Zap size={18} className="text-white" />
-          </div>
+          <img
+            src="/images/JuanitaRamirez.png"
+            alt="Emmy Juanita Ramirez Mora Logo"
+            className="w-8 h-8 rounded-full object-cover mr-3"
+          />
           <span>EMMY JUANITA</span>
         </a>
         <nav className="hidden items-center gap-6 md:flex">

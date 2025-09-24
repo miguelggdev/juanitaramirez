@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Handshake, Building } from "lucide-react";
 
@@ -28,16 +28,16 @@ const Patrocinadores = () => {
               <CardHeader className="flex-row items-center gap-4">
                 {sponsor.logo}
                 <div>
-                  <CardTitle>{sponsor.name}</CardTitle>
-                  <CardDescription>{sponsor.description}</CardDescription>
+                  <CardTitle className="text-white font-bold">{sponsor.name}</CardTitle>
+                  <CardDescription className="text-white">{sponsor.description}</CardDescription>
                 </div>
               </CardHeader>
             </Card>
           ))}
           <Card className="bg-purple-900/30 backdrop-blur-md border border-purple-400 flex flex-col items-center justify-center text-center p-6 shadow-lg shadow-purple-500/20">
             <Handshake className="h-10 w-10 text-purple-400 mb-4" />
-            <CardTitle className="mb-2">Tu Empresa Aquí</CardTitle>
-            <CardDescription className="mb-4">Únete a mi equipo y creemos un impacto juntos.</CardDescription>
+            <CardTitle className="mb-2 text-white font-bold">Tu Empresa Aquí</CardTitle>
+            <CardDescription className="mb-4 text-white">Únete a mi equipo y creemos un impacto juntos.</CardDescription>
             <Button variant="outline" className="border-white text-white hover:bg-white/10">Conviértete en Patrocinador</Button>
           </Card>
         </div>

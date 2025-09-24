@@ -41,10 +41,10 @@ const Logros = () => {
                 <Card className="bg-white/5 backdrop-blur-md border border-white/10">
                   <CardHeader className="flex flex-row items-center gap-4 pb-2">
                     {item.icon}
-                    <CardTitle className="text-lg">{item.title}</CardTitle>
+                    <CardTitle className="text-lg text-white font-bold">{item.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-300">{item.description}</p>
+                    <p className="text-white">{item.description}</p>
                   </CardContent>
                 </Card>
               </div>

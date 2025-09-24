@@ -10,7 +10,7 @@ const Hero = () => {
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover -z-20"
       >
-        <source src="https://assets.mixkit.co/videos/preview/mixkit-purple-and-blue-tech-threads-12728-large.mp4" type="video/mp4" />
+        <source src="/intro.mp4" type="video/mp4" />
         Tu navegador no soporta la etiqueta de video.
       </video>
       <div className="absolute top-0 left-0 w-full h-full bg-black/60 -z-10"></div>

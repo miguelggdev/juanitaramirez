@@ -5,7 +5,7 @@ const Profile = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative">
             <img
-              src="/images/JuanitaRamirez.png"
+              src="/images/imag1.jpeg"
               alt="Emmy Juanita Ramirez Mora"
               className="rounded-lg shadow-2xl w-full h-auto object-cover aspect-[4/5]"
             />

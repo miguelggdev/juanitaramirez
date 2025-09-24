@@ -27,7 +27,7 @@ const Navbar = () => {
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <a href="#" className="flex items-center text-xl font-bold tracking-wider text-white">
           <img
-            src="/images/JuanitaRamirez.png"
+            src="/images/imag1.jpeg"
             alt="Emmy Juanita Ramirez Mora Logo"
             className="w-8 h-8 rounded-full object-cover mr-3"
           />

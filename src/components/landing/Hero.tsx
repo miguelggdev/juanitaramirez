@@ -18,7 +18,7 @@ const Hero = () => {
 
       <div className="z-10 flex flex-col items-center px-4">
         <img
-          src="/images/JuanitaRamirez.png"
+          src="/images/imag1.jpeg"
           alt="Emmy Juanita Ramirez Mora"
           className="w-36 h-36 rounded-full border-4 border-white/50 object-cover shadow-lg mb-6"
         />

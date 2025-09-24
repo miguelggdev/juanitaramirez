@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/carousel";
 
 const images = [
-  "/images/JuanitaRamirez.png",
+  "/images/imag1.jpeg",
   "https://via.placeholder.com/800x600/6b21a8/ffffff?text=Acción+1",
   "https://via.placeholder.com/800x600/1e1b4b/ffffff?text=Podio",
   "https://via.placeholder.com/800x600/4c1d95/ffffff?text=Entrenamiento",

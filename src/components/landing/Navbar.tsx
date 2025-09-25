@@ -8,7 +8,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Instagram, Twitter, Languages, Sun, Moon, Menu, Facebook, Youtube, Mail, Phone } from "lucide-react";
+import { Instagram, Languages, Sun, Moon, Menu, Facebook, Mail, Phone } from "lucide-react";
 import { useState } from "react";
 
 const NavLink = ({ href, children }) => (
@@ -62,9 +62,7 @@ const Navbar = () => {
 
         <div className="hidden items-center gap-4 md:flex">
           <a href="https://www.instagram.com/juanita._rami?igsh=anh0YnU3bHkyOHRr" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors"><Instagram size={20} /></a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors"><Twitter size={20} /></a>
           <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors"><Facebook size={20} /></a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors"><Youtube size={20} /></a>
           <a href="mailto:juanitaramirezmora@gmail.com" className="text-gray-300 hover:text-white transition-colors"><Mail size={20} /></a>
           <a href="https://wa.me/573112905298" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors"><Phone size={20} /></a>
           

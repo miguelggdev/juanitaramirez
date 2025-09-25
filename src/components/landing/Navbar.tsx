@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Instagram, Languages, Sun, Moon, Menu, Facebook, Mail, Phone } from "lucide-react";
 import { useState } from "react";
+import { useTranslation } from 'react-i18next'; // Import useTranslation
 
 const NavLink = ({ href, children }) => (
   <a href={href} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">
@@ -25,18 +26,24 @@ const MobileNavLink = ({ href, children }) => (
   </SheetClose>
 );
 
-const languages = [
-  { name: "Inglés" },
-  { name: "Francés" },
-  { name: "Italiano" },
-  { name: "Portugués" },
-  { name: "Alemán" },
-  { name: "Chino" },
-  { name: "Japonés" },
-];
-
 const Navbar = () => {
   const [isDarkTheme, setIsDarkTheme] = useState(true);
+  const { t, i18n } = useTranslation(); // Initialize useTranslation
+
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
+  };
+
+  // Define languages with their codes
+  const languages = [
+    { name: t("languages.english"), code: "en" },
+    { name: t("languages.french"), code: "fr" },
+    { name: t("languages.italian"), code: "it" },
+    { name: t("languages.portuguese"), code: "pt" },
+    { name: t("languages.german"), code: "de" },
+    { name: t("languages.chinese"), code: "zh" },
+    { name: t("languages.japanese"), code: "ja" },
+  ];
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-purple-600 via-indigo-900 to-slate-950 bg-[length:200%_200%] animate-gradient-xy">
@@ -52,12 +59,12 @@ const Navbar = () => {
         
         {/* Desktop Navigation */}
         <nav className="hidden items-center gap-6 md:flex">
-          <NavLink href="#perfil">Perfil</NavLink>
-          <NavLink href="#logros">Logros</NavLink>
-          <NavLink href="#galeria">Galería</NavLink>
-          <NavLink href="#patrocinio">Patrocinio</NavLink>
-          <NavLink href="#apoyame">Apóyame</NavLink>
-          <NavLink href="#contacto">Contacto</NavLink>
+          <NavLink href="#perfil">{t('navbar.profile')}</NavLink>
+          <NavLink href="#logros">{t('navbar.achievements')}</NavLink>
+          <NavLink href="#galeria">{t('navbar.gallery')}</NavLink>
+          <NavLink href="#patrocinio">{t('navbar.sponsorship')}</NavLink>
+          <NavLink href="#apoyame">{t('navbar.support_me')}</NavLink>
+          <NavLink href="#contacto">{t('navbar.contact')}</NavLink>
         </nav>
 
         <div className="hidden items-center gap-4 md:flex">
@@ -74,7 +81,7 @@ const Navbar = () => {
             </DropdownMenuTrigger>
             <DropdownMenuContent className="bg-gray-900/95 text-white border-gray-800">
               {languages.map((lang) => (
-                <DropdownMenuItem key={lang.name} className="hover:bg-white/10 focus:bg-white/10">
+                <DropdownMenuItem key={lang.code} onClick={() => changeLanguage(lang.code)} className="hover:bg-white/10 focus:bg-white/10">
                   {lang.name}
                 </DropdownMenuItem>
               ))}
@@ -96,12 +103,12 @@ const Navbar = () => {
             </SheetTrigger>
             <SheetContent side="right" className="bg-gray-900/95 text-white border-l-gray-800">
               <nav className="flex flex-col gap-4 mt-8">
-                <MobileNavLink href="#perfil">Perfil</MobileNavLink>
-                <MobileNavLink href="#logros">Logros</MobileNavLink>
-                <MobileNavLink href="#galeria">Galería</MobileNavLink>
-                <MobileNavLink href="#patrocinio">Patrocinio</MobileNavLink>
-                <MobileNavLink href="#apoyame">Apóyame</MobileNavLink>
-                <MobileNavLink href="#contacto">Contacto</MobileNavLink>
+                <MobileNavLink href="#perfil">{t('navbar.profile')}</MobileNavLink>
+                <MobileNavLink href="#logros">{t('navbar.achievements')}</MobileNavLink>
+                <MobileNavLink href="#galeria">{t('navbar.gallery')}</MobileNavLink>
+                <MobileNavLink href="#patrocinio">{t('navbar.sponsorship')}</MobileNavLink>
+                <MobileNavLink href="#apoyame">{t('navbar.support_me')}</MobileNavLink>
+                <MobileNavLink href="#contacto">{t('navbar.contact')}</MobileNavLink>
               </nav>
             </SheetContent>
           </Sheet>

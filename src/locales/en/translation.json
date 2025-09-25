@@ -1,0 +1,158 @@
+{
+  "navbar": {
+    "profile": "Profile",
+    "achievements": "Achievements",
+    "gallery": "Gallery",
+    "sponsorship": "Sponsorship",
+    "support_me": "Support Me",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Emmy Juanita Ramírez Mora",
+    "subtitle": "High-Performance Athlete",
+    "support_button": "Support Me",
+    "contact_button": "Contact Me"
+  },
+  "about_me": {
+    "title": "About Me",
+    "description": "My life is the rhythm of the track. As a high-performance athlete, every training session and competition is a commitment to my dream: always giving my best to push my limits. Speed skating is my passion and my language, where I turn discipline into progress and challenges into triumphs. This is the determination that drives me to go further every day, because when you put heart and passion into it, there's no goal you can't achieve.",
+    "tags": {
+      "tag1": "#HighPerformance",
+      "tag2": "#PassionOnWheels",
+      "tag3": "#SpeedSkating",
+      "tag4": "#Discipline"
+    }
+  },
+  "my_path": {
+    "title": "My Journey",
+    "description": "From my first steps on wheels, I knew my place was on the track. My journey is not just a series of competitions, but a story of perseverance, sacrifice, and an unwavering passion for speed. Every day is an opportunity to be stronger, faster, and more resilient. My goal is not just to win medals, but to inspire others to pursue their dreams with the same determination."
+  },
+  "achievements": {
+    "title": "Featured Achievements",
+    "item1_year": "2023",
+    "item1_title": "National Championship",
+    "item1_description": "Gold Medal in 500m Sprint.",
+    "item2_year": "2022",
+    "item2_title": "Junior Pan American Games",
+    "item2_description": "Qualification and outstanding participation.",
+    "item3_year": "2021",
+    "item3_title": "Regional Record",
+    "item3_description": "New record in the youth 1000m category."
+  },
+  "gallery": {
+    "title": "Gallery"
+  },
+  "values": {
+    "title": "My Values",
+    "discipline_title": "Discipline",
+    "discipline_description": "Daily commitment to excellence and continuous improvement.",
+    "passion_title": "Passion",
+    "passion_description": "The engine that drives every training and competition.",
+    "resilience_title": "Resilience",
+    "resilience_description": "Overcoming obstacles and turning challenges into opportunities.",
+    "commitment_title": "Commitment",
+    "commitment_description": "Loyalty to my goals, my team, and my sponsors.",
+    "teamwork_title": "Teamwork",
+    "teamwork_description": "Unity is strength. Collaborating to achieve common goals.",
+    "respect_title": "Respect",
+    "respect_description": "Valuing rivals, teammates, and the rules of the game.",
+    "self_improvement_title": "Self-Improvement",
+    "self_improvement_description": "The constant desire to break my own limits.",
+    "integrity_title": "Integrity",
+    "integrity_description": "Competing with honesty and playing fair at all times."
+  },
+  "why_sponsor_me": {
+    "title": "Why Sponsor Me?",
+    "subtitle": "Investing in my career is more than a sponsorship; it's a strategic alliance to grow together and reach new heights.",
+    "benefit1_title": "Exponential Brand Visibility",
+    "benefit1_description": "Associate your brand with speed and success. Gain exposure in national and international competitions, social media, and communication channels, reaching thousands of sports enthusiasts.",
+    "benefit2_title": "Association with Positive Values",
+    "benefit2_description": "Aligning your company with values of discipline, self-improvement, and passion inspires trust and loyalty. Demonstrate your commitment to young talent and sporting excellence.",
+    "benefit3_title": "Social and Community Impact",
+    "benefit3_description": "Your support not only boosts my career but also inspires a new generation of athletes. Become a pillar for the community and an agent of change through sport.",
+    "benefit4_title": "Tangible Return on Investment",
+    "benefit4_description": "I offer unique marketing opportunities, from exclusive social media content to the presence of your logo on my equipment. Generate a measurable return while supporting a dream."
+  },
+  "sponsors": {
+    "title": "Strategic Alliances",
+    "sponsor1_name": "Sports Brand",
+    "sponsor1_description": "High-performance equipment.",
+    "sponsor2_name": "Pro Nutrition",
+    "sponsor2_description": "Supplements for elite athletes.",
+    "your_company_title": "Your Company Here",
+    "your_company_description": "Join my team and let's create an impact together.",
+    "become_sponsor_button": "Become a Sponsor"
+  },
+  "support_me_section": {
+    "title": "Join My Team",
+    "subtitle": "Your support is fundamental to achieving my goals. Every contribution brings me closer to the top.",
+    "tabs": {
+      "wishlist": "Wishlist",
+      "fanclub": "Fan Club",
+      "one_time_donation": "One-Time Contribution"
+    },
+    "wishlist_items": {
+      "item1_name": "New Competition Skates",
+      "item1_raised": "{{current}} of {{goal}} raised",
+      "item2_name": "Trip to World Championship",
+      "item2_raised": "{{current}} of {{goal}} raised",
+      "item3_name": "Recovery Equipment",
+      "item3_raised": "{{current}} of {{goal}} raised",
+      "contribute_button": "Contribute"
+    },
+    "fanclub_tiers": {
+      "bronze_name": "Bronze",
+      "bronze_feature1": "Newsletter access",
+      "bronze_feature2": "Social media mention",
+      "silver_name": "Silver",
+      "silver_feature1": "Bronze benefits",
+      "silver_feature2": "Thank you video",
+      "silver_feature3": "Exclusive content",
+      "gold_name": "Gold",
+      "gold_feature1": "Silver benefits",
+      "gold_feature2": "Official merchandise",
+      "gold_feature3": "Group video call",
+      "join_button": "Join"
+    },
+    "donate_card": {
+      "title": "Make a One-Time Donation",
+      "description": "Any amount makes a big difference.",
+      "donate_button": "Donate Now"
+    }
+  },
+  "payment_modal": {
+    "title": "Payment Options",
+    "description": "Choose your preferred payment method. Thank you for your support!",
+    "nequi_title": "Nequi",
+    "nequi_name": "Juan Ramírez C.",
+    "nequi_copy_success": "Number copied to clipboard!",
+    "paypal_title": "PayPal",
+    "paypal_description": "Click to donate securely",
+    "close_button": "Close"
+  },
+  "contact_section": {
+    "title": "Get in Touch",
+    "subtitle": "Interested in a collaboration, sponsorship, or just want to say hello? Send me a message.",
+    "name_label": "Name",
+    "email_label": "Email",
+    "message_label": "Message",
+    "submit_button": "Send Message",
+    "submitting_button": "Sending...",
+    "success_message": "Message sent successfully! I will get in touch with you soon.",
+    "error_message": "There was an error sending the message. Please try again.",
+    "connection_error_message": "There was a connection error. Please try again."
+  },
+  "footer": {
+    "copyright": "Emmy Juanita Ramirez Mora. All rights reserved."
+  },
+  "languages": {
+    "english": "English",
+    "french": "French",
+    "italian": "Italian",
+    "portuguese": "Portuguese",
+    "german": "German",
+    "chinese": "Chinese",
+    "japanese": "Japanese"
+  },
+  "footer_credit": "Designed and developed by ArkanaTech"
+}

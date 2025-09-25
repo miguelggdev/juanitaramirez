@@ -1,33 +1,36 @@
 import { Trophy, Medal, Calendar } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-
-const achievements = [
-  {
-    year: "2023",
-    title: "Campeonato Nacional",
-    description: "Medalla de Oro en 500m Sprint.",
-    icon: <Trophy className="h-6 w-6 text-yellow-400" />,
-  },
-  {
-    year: "2022",
-    title: "Juegos Panamericanos Junior",
-    description: "Clasificación y participación destacada.",
-    icon: <Medal className="h-6 w-6 text-slate-400" />,
-  },
-  {
-    year: "2021",
-    title: "Récord Regional",
-    description: "Nuevo récord en la categoría juvenil de 1000m.",
-    icon: <Calendar className="h-6 w-6 text-purple-400" />,
-  },
-];
+import { useTranslation } from 'react-i18next';
 
 const Logros = () => {
+  const { t } = useTranslation();
+
+  const achievements = [
+    {
+      year: t('achievements.item1_year'),
+      title: t('achievements.item1_title'),
+      description: t('achievements.item1_description'),
+      icon: <Trophy className="h-6 w-6 text-yellow-400" />,
+    },
+    {
+      year: t('achievements.item2_year'),
+      title: t('achievements.item2_title'),
+      description: t('achievements.item2_description'),
+      icon: <Medal className="h-6 w-6 text-slate-400" />,
+    },
+    {
+      year: t('achievements.item3_year'),
+      title: t('achievements.item3_title'),
+      description: t('achievements.item3_description'),
+      icon: <Calendar className="h-6 w-6 text-purple-400" />,
+    },
+  ];
+
   return (
     <section id="logros" className="py-20 sm:py-32">
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 tracking-tight">
-          Logros Destacados
+          {t('achievements.title')}
         </h2>
         <div className="relative max-w-2xl mx-auto">
           <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-purple-800"></div>

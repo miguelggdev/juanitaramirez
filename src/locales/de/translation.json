@@ -1,0 +1,159 @@
+{
+  "navbar": {
+    "profile": "Profil",
+    "achievements": "Erfolge",
+    "gallery": "Galerie",
+    "sponsorship": "Sponsoring",
+    "support_me": "Unterstütze mich",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Emmy Juanita Ramírez Mora",
+    "subtitle": "Hochleistungssportlerin",
+    "support_button": "Unterstütze mich",
+    "contact_button": "Kontaktiere mich"
+  },
+  "about_me": {
+    "title": "Über mich",
+    "description": "Mein Leben ist der Rhythmus der Bahn. Als Hochleistungssportlerin ist jedes Training und jeder Wettkampf eine Verpflichtung gegenüber meinem Traum: immer mein Bestes zu geben, um meine Grenzen zu überschreiten. Speedskating ist meine Leidenschaft und meine Sprache, in der ich Disziplin in Fortschritt und Herausforderungen in Triumphe verwandle. Das ist die Entschlossenheit, die mich jeden Tag antreibt, weiter zu gehen, denn wenn man Herz und Leidenschaft hineinsteckt, gibt es kein Ziel, das man nicht erreichen kann.",
+    "tags": {
+      "tag1": "#Hochleistungssport",
+      "tag2": "#LeidenschaftAufRollen",
+      "tag3": "#Speedskating",
+      "tag4": "#Disziplin"
+    }
+  },
+  "my_path": {
+    "title": "Mein Weg",
+    "description": "Von meinen ersten Schritten auf Rollen wusste ich, dass mein Platz auf der Bahn ist. Meine Reise ist nicht nur eine Reihe von Wettkämpfen, sondern eine Geschichte von Ausdauer, Opferbereitschaft und einer unerschütterlichen Leidenschaft für Geschwindigkeit. Jeder Tag ist eine Gelegenheit, stärker, schneller und widerstandsfähiger zu werden. Mein Ziel ist es nicht nur, Medaillen zu gewinnen, sondern auch andere zu inspirieren, ihre Träume mit der gleichen Entschlossenheit zu verfolgen."
+  },
+  "achievements": {
+    "title": "Herausragende Erfolge",
+    "item1_year": "2023",
+    "item1_title": "Nationale Meisterschaft",
+    "item1_description": "Goldmedaille im 500m Sprint.",
+    "item2_year": "2022",
+    "item2_title": "Panamerikanische Juniorenspiele",
+    "item2_description": "Qualifikation und herausragende Teilnahme.",
+    "item3_year": "2021",
+    "item3_title": "Regionalrekord",
+    "item3_description": "Neuer Rekord in der Jugendkategorie über 1000m."
+  },
+  "gallery": {
+    "title": "Galerie"
+  },
+  "values": {
+    "title": "Meine Werte",
+    "discipline_title": "Disziplin",
+    "discipline_description": "Tägliches Engagement für Exzellenz und kontinuierliche Verbesserung.",
+    "passion_title": "Leidenschaft",
+    "passion_description": "Der Motor, der jedes Training und jeden Wettkampf antreibt.",
+    "resilience_title": "Widerstandsfähigkeit",
+    "resilience_description": "Hindernisse überwinden und Herausforderungen in Chancen verwandeln.",
+    "commitment_title": "Engagement",
+    "commitment_description": "Loyalität gegenüber meinen Zielen, meinem Team und meinen Sponsoren.",
+    "teamwork_title": "Teamarbeit",
+    "teamwork_description": "Einheit macht stark. Zusammenarbeiten, um gemeinsame Ziele zu erreichen.",
+    "respect_title": "Respekt",
+    "respect_description": "Gegner, Teamkollegen und die Spielregeln wertschätzen.",
+    "self_improvement_title": "Selbstverbesserung",
+    "self_improvement_description": "Der ständige Wunsch, meine eigenen Grenzen zu sprengen.",
+    "integrity_title": "Integrität",
+    "integrity_description": "Mit Ehrlichkeit antreten und jederzeit fair spielen."
+  },
+  "why_sponsor_me": {
+    "title": "Warum mich sponsern?",
+    "subtitle": "In meine Karriere zu investieren ist mehr als nur Sponsoring; es ist eine strategische Allianz, um gemeinsam zu wachsen und neue Höhen zu erreichen.",
+    "benefit1_title": "Exponentielle Markensichtbarkeit",
+    "benefit1_description": "Verbinden Sie Ihre Marke mit Geschwindigkeit und Erfolg. Erhalten Sie Präsenz bei nationalen und internationalen Wettbewerben, in sozialen Medien und Kommunikationskanälen und erreichen Sie Tausende von sportbegeisterten Fans.",
+    "benefit2_title": "Assoziation mit positiven Werten",
+    "benefit2_description": "Die Ausrichtung Ihres Unternehmens an den Werten Disziplin, Selbstverbesserung und Leidenschaft schafft Vertrauen und Loyalität. Zeigen Sie Ihr Engagement für junge Talente und sportliche Exzellenz.",
+    "benefit3_title": "Sozialer und gemeinschaftlicher Einfluss",
+    "benefit3_description": "Ihre Unterstützung fördert nicht nur meine Karriere, sondern inspiriert auch eine neue Generation von Athleten. Werden Sie eine Säule für die Gemeinschaft und ein Agent des Wandels durch Sport.",
+    "benefit4_title": "Greifbarer Return on Investment",
+    "benefit4_description": "Ich biete einzigartige Marketingmöglichkeiten, von exklusiven Social-Media-Inhalten bis zur Präsenz Ihres Logos auf meiner Ausrüstung. Erzielen Sie eine messbare Rendite, während Sie einen Traum unterstützen."
+  },
+  "sponsors": {
+    "title": "Strategische Allianzen",
+    "sponsor1_name": "Sportmarke",
+    "sponsor1_description": "Hochleistungsausrüstung.",
+    "sponsor2_name": "Pro Nutrition",
+    "sponsor2_description": "Nahrungsergänzungsmittel für Spitzensportler.",
+    "your_company_title": "Ihr Unternehmen hier",
+    "your_company_description": "Treten Sie meinem Team bei und lassen Sie uns gemeinsam etwas bewirken.",
+    "become_sponsor_button": "Sponsor werden"
+  },
+  "support_me_section": {
+    "title": "Tritt meinem Team bei",
+    "subtitle": "Deine Unterstützung ist entscheidend, um meine Ziele zu erreichen. Jeder Beitrag bringt mich näher an die Spitze.",
+    "tabs": {
+      "wishlist": "Wunschliste",
+      "fanclub": "Fanclub",
+      "one_time_donation": "Einmalige Spende"
+    },
+    "wishlist_items": {
+      "item1_name": "Neue Wettkampf-Skates",
+      "item1_raised": "{{current}} von {{goal}} gesammelt",
+      "item2_name": "Reise zur Weltmeisterschaft",
+      "item2_raised": "{{current}} von {{goal}} gesammelt",
+      "item3_name": "Regenerationsausrüstung",
+      "item3_raised": "{{current}} von {{goal}} gesammelt",
+      "contribute_button": "Beitragen"
+    },
+    "fanclub_tiers": {
+      "bronze_name": "Bronze",
+      "bronze_feature1": "Newsletter-Zugang",
+      "bronze_feature2": "Erwähnung in sozialen Medien",
+      "silver_name": "Silber",
+      "silver_feature1": "Bronze-Vorteile",
+      "silver_feature2": "Dankesvideo",
+      "silver_feature3": "Exklusiver Inhalt",
+      "gold_name": "Gold",
+      "gold_feature1": "Silber-Vorteile",
+      "gold_feature2": "Offizielles Merchandise",
+      "gold_feature3": "Gruppen-Videoanruf",
+      "join_button": "Beitreten"
+    },
+    "donate_card": {
+      "title": "Eine einmalige Spende tätigen",
+      "description": "Jeder Betrag macht einen großen Unterschied.",
+      "donate_button": "Jetzt spenden"
+    }
+  },
+  "payment_modal": {
+    "title": "Zahlungsoptionen",
+    "description": "Wählen Sie Ihre bevorzugte Zahlungsmethode. Vielen Dank für Ihre Unterstützung!",
+    "nequi_title": "Nequi",
+    "nequi_name": "Juan Ramírez C.",
+    "nequi_copy_success": "Nummer in die Zwischenablage kopiert!",
+    "paypal_title": "PayPal",
+    "paypal_description": "Klicken Sie hier, um sicher zu spenden",
+    "close_button": "Schließen"
+  },
+  "contact_section": {
+    "title": "Kontakt aufnehmen",
+    "subtitle": "Interessiert an einer Zusammenarbeit, einem Sponsoring oder möchten Sie einfach nur Hallo sagen? Senden Sie mir eine Nachricht.",
+    "name_label": "Name",
+    "email_label": "E-Mail",
+    "message_label": "Nachricht",
+    "submit_button": "Nachricht senden",
+    "submitting_button": "Wird gesendet...",
+    "success_message": "Nachricht erfolgreich gesendet! Ich werde mich bald bei Ihnen melden.",
+    "error_message": "Beim Senden der Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+    "connection_error_message": "Es ist ein Verbindungsfehler aufgetreten. Bitte versuchen Sie es erneut."
+  },
+  "footer": {
+    "copyright": "© {{year}} Emmy Juanita Ramirez Mora. Alle Rechte vorbehalten."
+  },
+  "languages": {
+    "spanish": "Spanisch",
+    "english": "Englisch",
+    "french": "Französisch",
+    "italian": "Italienisch",
+    "portuguese": "Portugiesisch",
+    "german": "Deutsch",
+    "chinese": "Chinesisch",
+    "japanese": "Japanisch"
+  },
+  "footer_credit": "Entworfen und entwickelt von ArkanaTech"
+}

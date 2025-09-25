@@ -1,0 +1,159 @@
+{
+  "navbar": {
+    "profile": "Perfil",
+    "achievements": "Conquistas",
+    "gallery": "Galeria",
+    "sponsorship": "Patrocínio",
+    "support_me": "Apoie-me",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Emmy Juanita Ramírez Mora",
+    "subtitle": "Atleta de Alto Rendimento",
+    "support_button": "Apoie-me",
+    "contact_button": "Contate-me"
+  },
+  "about_me": {
+    "title": "Sobre Mim",
+    "description": "Minha vida é o ritmo da pista. Como atleta de alto rendimento, cada treino e competição é um compromisso com o meu sonho: dar sempre o meu melhor para superar meus limites. A patinação de velocidade é minha paixão e minha linguagem, onde transformo a disciplina em progresso e os desafios em triunfos. Esta é a determinação que me impulsiona a ir mais longe a cada dia, porque quando se coloca coração e paixão, não há meta que não possa ser alcançada.",
+    "tags": {
+      "tag1": "#AltoRendimento",
+      "tag2": "#PaixaoSobreRodas",
+      "tag3": "#PatinacaoDeVelocidade",
+      "tag4": "#Disciplina"
+    }
+  },
+  "my_path": {
+    "title": "Meu Caminho",
+    "description": "Desde os meus primeiros passos sobre rodas, eu sabia que o meu lugar era na pista. Minha trajetória não é apenas uma série de competições, mas uma história de perseverança, sacrifício e uma paixão inabalável pela velocidade. Cada dia é uma oportunidade para ser mais forte, mais rápida e mais resiliente. Meu objetivo não é apenas ganhar medalhas, mas inspirar outros a perseguir seus sonhos com a mesma determinação."
+  },
+  "achievements": {
+    "title": "Conquistas em Destaque",
+    "item1_year": "2023",
+    "item1_title": "Campeonato Nacional",
+    "item1_description": "Medalha de Ouro nos 500m Sprint.",
+    "item2_year": "2022",
+    "item2_title": "Jogos Pan-Americanos Júnior",
+    "item2_description": "Classificação e participação destacada.",
+    "item3_year": "2021",
+    "item3_title": "Recorde Regional",
+    "item3_description": "Novo recorde na categoria juvenil de 1000m."
+  },
+  "gallery": {
+    "title": "Galeria"
+  },
+  "values": {
+    "title": "Meus Valores",
+    "discipline_title": "Disciplina",
+    "discipline_description": "Compromisso diário com a excelência e a melhoria contínua.",
+    "passion_title": "Paixão",
+    "passion_description": "O motor que impulsiona cada treino e competição.",
+    "resilience_title": "Resiliência",
+    "resilience_description": "Superar obstáculos e transformar desafios em oportunidades.",
+    "commitment_title": "Compromisso",
+    "commitment_description": "Lealdade aos meus objetivos, minha equipe e meus patrocinadores.",
+    "teamwork_title": "Trabalho em Equipe",
+    "teamwork_description": "A união faz a força. Colaborar para alcançar metas comuns.",
+    "respect_title": "Respeito",
+    "respect_description": "Valorizar rivais, colegas de equipe e as regras do jogo.",
+    "self_improvement_title": "Superação",
+    "self_improvement_description": "O desejo constante de quebrar meus próprios limites.",
+    "integrity_title": "Integridade",
+    "integrity_description": "Competir com honestidade e jogar limpo em todos os momentos."
+  },
+  "why_sponsor_me": {
+    "title": "Por Que me Patrocinar?",
+    "subtitle": "Investir na minha carreira é mais do que um patrocínio; é uma aliança estratégica para crescermos juntos e alcançarmos novos patamares.",
+    "benefit1_title": "Visibilidade Exponencial da Marca",
+    "benefit1_description": "Associe sua marca à velocidade e ao sucesso. Obtenha exposição em competições nacionais e internacionais, redes sociais e meios de comunicação, alcançando milhares de fãs apaixonados por esporte.",
+    "benefit2_title": "Associação com Valores Positivos",
+    "benefit2_description": "Alinhar sua empresa com os valores de disciplina, superação e paixão inspira confiança e lealdade. Demonstre seu compromisso com o talento jovem e a excelência esportiva.",
+    "benefit3_title": "Impacto Social e Comunitário",
+    "benefit3_description": "Seu apoio não apenas impulsiona minha carreira, mas também inspira uma nova geração de atletas. Torne-se um pilar para a comunidade e um agente de mudança através do esporte.",
+    "benefit4_title": "Retorno sobre o Investimento Tangível",
+    "benefit4_description": "Ofereço oportunidades de marketing únicas, desde conteúdo exclusivo em redes sociais até a presença do seu logotipo no meu equipamento. Gere um retorno mensurável enquanto apoia um sonho."
+  },
+  "sponsors": {
+    "title": "Alianças Estratégicas",
+    "sponsor1_name": "Marca Esportiva",
+    "sponsor1_description": "Equipamento de alto desempenho.",
+    "sponsor2_name": "Nutrição Pro",
+    "sponsor2_description": "Suplementos para atletas de elite.",
+    "your_company_title": "Sua Empresa Aqui",
+    "your_company_description": "Junte-se à minha equipe e vamos criar um impacto juntos.",
+    "become_sponsor_button": "Torne-se um Patrocinador"
+  },
+  "support_me_section": {
+    "title": "Junte-se à Minha Equipe",
+    "subtitle": "Seu apoio é fundamental para alcançar meus objetivos. Cada contribuição me aproxima do topo.",
+    "tabs": {
+      "wishlist": "Lista de Desejos",
+      "fanclub": "Fã-Clube",
+      "one_time_donation": "Doação Única"
+    },
+    "wishlist_items": {
+      "item1_name": "Novos Patins de Competição",
+      "item1_raised": "{{current}} de {{goal}} arrecadados",
+      "item2_name": "Viagem para o Campeonato Mundial",
+      "item2_raised": "{{current}} de {{goal}} arrecadados",
+      "item3_name": "Equipamento de Recuperação",
+      "item3_raised": "{{current}} de {{goal}} arrecadados",
+      "contribute_button": "Contribuir"
+    },
+    "fanclub_tiers": {
+      "bronze_name": "Bronze",
+      "bronze_feature1": "Acesso à newsletter",
+      "bronze_feature2": "Menção nas redes sociais",
+      "silver_name": "Prata",
+      "silver_feature1": "Benefícios Bronze",
+      "silver_feature2": "Vídeo de agradecimento",
+      "silver_feature3": "Conteúdo exclusivo",
+      "gold_name": "Ouro",
+      "gold_feature1": "Benefícios Prata",
+      "gold_feature2": "Merchandising oficial",
+      "gold_feature3": "Videochamada em grupo",
+      "join_button": "Juntar-se"
+    },
+    "donate_card": {
+      "title": "Faça uma Doação Única",
+      "description": "Qualquer quantia faz uma grande diferença.",
+      "donate_button": "Doar Agora"
+    }
+  },
+  "payment_modal": {
+    "title": "Opções de Pagamento",
+    "description": "Escolha seu método de pagamento preferido. Obrigado pelo seu apoio!",
+    "nequi_title": "Nequi",
+    "nequi_name": "Juan Ramírez C.",
+    "nequi_copy_success": "Número copiado para a área de transferência!",
+    "paypal_title": "PayPal",
+    "paypal_description": "Clique para doar com segurança",
+    "close_button": "Fechar"
+  },
+  "contact_section": {
+    "title": "Entre em Contato",
+    "subtitle": "Interessado em uma colaboração, patrocínio ou apenas quer dizer olá? Envie-me uma mensagem.",
+    "name_label": "Nome",
+    "email_label": "Email",
+    "message_label": "Mensagem",
+    "submit_button": "Enviar Mensagem",
+    "submitting_button": "Enviando...",
+    "success_message": "Mensagem enviada com sucesso! Entrarei em contato com você em breve.",
+    "error_message": "Ocorreu um erro ao enviar a mensagem. Por favor, tente novamente.",
+    "connection_error_message": "Ocorreu um erro de conexão. Por favor, tente novamente."
+  },
+  "footer": {
+    "copyright": "© {{year}} Emmy Juanita Ramirez Mora. Todos os direitos reservados."
+  },
+  "languages": {
+    "spanish": "Espanhol",
+    "english": "Inglês",
+    "french": "Francês",
+    "italian": "Italiano",
+    "portuguese": "Português",
+    "german": "Alemão",
+    "chinese": "Chinês",
+    "japanese": "Japonês"
+  },
+  "footer_credit": "Projetado e desenvolvido por ArkanaTech"
+}

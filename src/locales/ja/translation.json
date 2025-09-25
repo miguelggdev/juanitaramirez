@@ -1,0 +1,159 @@
+{
+  "navbar": {
+    "profile": "プロフィール",
+    "achievements": "実績",
+    "gallery": "ギャラリー",
+    "sponsorship": "スポンサーシップ",
+    "support_me": "サポート",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "title": "エミー・フアニータ・ラミレス・モラ",
+    "subtitle": "ハイパフォーマンスアスリート",
+    "support_button": "サポートする",
+    "contact_button": "お問い合わせ"
+  },
+  "about_me": {
+    "title": "私について",
+    "description": "私の人生はトラックのリズムです。ハイパフォーマンスアスリートとして、毎回のトレーニングと競技は私の夢へのコミットメントです。常に自分の限界を超えるために最善を尽くします。スピードスケートは私の情熱であり、私の言語です。そこでは規律を進歩に変え、挑戦を勝利に変えます。これが毎日私をさらに前進させる決意です。心と情熱を注げば、達成できない目標はありません。",
+    "tags": {
+      "tag1": "#ハイパフォーマンス",
+      "tag2": "#車輪の上の情熱",
+      "tag3": "#スピードスケート",
+      "tag4": "#規律"
+    }
+  },
+  "my_path": {
+    "title": "私の道のり",
+    "description": "車輪の上に初めて立った時から、私の居場所はトラックだと知っていました。私の道のりは単なる競技の連続ではなく、忍耐、犠牲、そしてスピードへの揺るぎない情熱の物語です。毎日がより強く、より速く、より回復力のある自分になるための機会です。私の目標はメダルを獲得することだけでなく、同じ決意で夢を追いかけるよう他の人々を鼓舞することです。"
+  },
+  "achievements": {
+    "title": "主な実績",
+    "item1_year": "2023年",
+    "item1_title": "全国選手権",
+    "item1_description": "500mスプリントで金メダル。",
+    "item2_year": "2022年",
+    "item2_title": "ジュニアパンアメリカン競技大会",
+    "item2_description": "予選通過と優れた成績。",
+    "item3_year": "2021年",
+    "item3_title": "地域記録",
+    "item3_description": "ユース1000mカテゴリーで新記録。"
+  },
+  "gallery": {
+    "title": "ギャラリー"
+  },
+  "values": {
+    "title": "私の価値観",
+    "discipline_title": "規律",
+    "discipline_description": "卓越性と継続的な改善への日々のコミットメント。",
+    "passion_title": "情熱",
+    "passion_description": "すべてのトレーニングと競技を駆動するエンジン。",
+    "resilience_title": "回復力",
+    "resilience_description": "障害を乗り越え、挑戦を機会に変えること。",
+    "commitment_title": "コミットメント",
+    "commitment_description": "私の目標、チーム、スポンサーへの忠誠。",
+    "teamwork_title": "チームワーク",
+    "teamwork_description": "団結は力なり。共通の目標を達成するために協力する。",
+    "respect_title": "尊敬",
+    "respect_description": "ライバル、チームメイト、そしてゲームのルールを尊重する。",
+    "self_improvement_title": "自己改善",
+    "self_improvement_description": "常に自分の限界を打ち破りたいという願望。",
+    "integrity_title": "誠実さ",
+    "integrity_description": "常に正直に競争し、フェアプレーを心がけること。"
+  },
+  "why_sponsor_me": {
+    "title": "なぜ私をスポンサーするのか？",
+    "subtitle": "私のキャリアへの投資はスポンサーシップ以上のものであり、共に成長し新たな高みを目指すための戦略的提携です。",
+    "benefit1_title": "指数関数的なブランド認知度",
+    "benefit1_description": "あなたのブランドをスピードと成功に関連付けます。国内外の競技会、ソーシャルメディア、通信チャネルで露出を得て、何千人ものスポーツ愛好家にリーチします。",
+    "benefit2_title": "ポジティブな価値観との連携",
+    "benefit2_description": "あなたの会社を規律、自己改善、情熱といった価値観と連携させることは、信頼と忠誠心を育みます。若い才能とスポーツの卓越性へのコミットメントを示してください。",
+    "benefit3_title": "社会的および地域社会への影響",
+    "benefit3_description": "あなたのサポートは私のキャリアを後押しするだけでなく、新世代のアスリートを鼓舞します。スポーツを通じて地域社会の柱となり、変化のエージェントになってください。",
+    "benefit4_title": "具体的な投資収益率",
+    "benefit4_description": "独占的なソーシャルメディアコンテンツから私の用具へのロゴ掲載まで、ユニークなマーケティング機会を提供します。夢をサポートしながら、測定可能なリターンを生み出します。"
+  },
+  "sponsors": {
+    "title": "戦略的提携",
+    "sponsor1_name": "スポーツブランド",
+    "sponsor1_description": "高性能な用具。",
+    "sponsor2_name": "プロニュートリション",
+    "sponsor2_description": "エリートアスリート向けサプリメント。",
+    "your_company_title": "あなたの会社をここに",
+    "your_company_description": "私のチームに参加して、一緒にインパクトを創りましょう。",
+    "become_sponsor_button": "スポンサーになる"
+  },
+  "support_me_section": {
+    "title": "私のチームに参加",
+    "subtitle": "あなたのサポートは私の目標達成に不可欠です。すべての貢献が私を頂点に近づけます。",
+    "tabs": {
+      "wishlist": "ウィッシュリスト",
+      "fanclub": "ファンクラブ",
+      "one_time_donation": "一回限りの寄付"
+    },
+    "wishlist_items": {
+      "item1_name": "新しい競技用スケート",
+      "item1_raised": "{{goal}}中{{current}}が集まりました",
+      "item2_name": "世界選手権への旅",
+      "item2_raised": "{{goal}}中{{current}}が集まりました",
+      "item3_name": "回復用具",
+      "item3_raised": "{{goal}}中{{current}}が集まりました",
+      "contribute_button": "貢献する"
+    },
+    "fanclub_tiers": {
+      "bronze_name": "ブロンズ",
+      "bronze_feature1": "ニュースレターアクセス",
+      "bronze_feature2": "ソーシャルメディアでの言及",
+      "silver_name": "シルバー",
+      "silver_feature1": "ブロンズ特典",
+      "silver_feature2": "感謝のビデオ",
+      "silver_feature3": "限定コンテンツ",
+      "gold_name": "ゴールド",
+      "gold_feature1": "シルバー特典",
+      "gold_feature2": "公式グッズ",
+      "gold_feature3": "グループビデオコール",
+      "join_button": "参加する"
+    },
+    "donate_card": {
+      "title": "一回限りの寄付をする",
+      "description": "どんな金額でも大きな違いを生みます。",
+      "donate_button": "今すぐ寄付"
+    }
+  },
+  "payment_modal": {
+    "title": "支払いオプション",
+    "description": "ご希望の支払い方法を選択してください。ご支援ありがとうございます！",
+    "nequi_title": "Nequi",
+    "nequi_name": "フアン・ラミレス C.",
+    "nequi_copy_success": "番号がクリップボードにコピーされました！",
+    "paypal_title": "PayPal",
+    "paypal_description": "安全に寄付するにはクリックしてください",
+    "close_button": "閉じる"
+  },
+  "contact_section": {
+    "title": "お問い合わせ",
+    "subtitle": "コラボレーション、スポンサーシップに興味がありますか、それともただ挨拶したいですか？メッセージを送ってください。",
+    "name_label": "名前",
+    "email_label": "メールアドレス",
+    "message_label": "メッセージ",
+    "submit_button": "メッセージを送信",
+    "submitting_button": "送信中...",
+    "success_message": "メッセージが正常に送信されました！すぐにご連絡いたします。",
+    "error_message": "メッセージの送信中にエラーが発生しました。もう一度お試しください。",
+    "connection_error_message": "接続エラーが発生しました。もう一度お試しください。"
+  },
+  "footer": {
+    "copyright": "© {{year}} エミー・フアニータ・ラミレス・モラ. 全著作権所有。"
+  },
+  "languages": {
+    "spanish": "スペイン語",
+    "english": "英語",
+    "french": "フランス語",
+    "italian": "イタリア語",
+    "portuguese": "ポルトガル語",
+    "german": "ドイツ語",
+    "chinese": "中国語",
+    "japanese": "日本語"
+  },
+  "footer_credit": "ArkanaTechによって設計・開発されました"
+}

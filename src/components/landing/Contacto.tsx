@@ -4,8 +4,10 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { showSuccess, showError } from "@/utils/toast";
+import { useTranslation } from 'react-i18next';
 
 const Contacto = () => {
+  const { t } = useTranslation();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -15,7 +17,6 @@ const Contacto = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Replace with your actual Formspree form ID
     const formspreeUrl = "https://formspree.io/f/xvgwgqwl"; 
 
     try {
@@ -28,16 +29,16 @@ const Contacto = () => {
       });
 
       if (response.ok) {
-        showSuccess("¡Mensaje enviado con éxito! Pronto me pondré en contacto contigo.");
+        showSuccess(t('contact_section.success_message'));
         setName("");
         setEmail("");
         setMessage("");
       } else {
-        showError("Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo.");
+        showError(t('contact_section.error_message'));
       }
     } catch (error) {
       console.error("Error submitting form:", error);
-      showError("Hubo un error de conexión. Por favor, inténtalo de nuevo.");
+      showError(t('contact_section.connection_error_message'));
     } finally {
       setIsSubmitting(false);
     }
@@ -48,14 +49,14 @@ const Contacto = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-xl mx-auto text-center bg-black/20 backdrop-blur-md rounded-xl border border-white/10 p-8 md:p-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">
-            Ponte en Contacto
+            {t('contact_section.title')}
           </h2>
           <p className="text-gray-300 mb-8">
-            ¿Interesado en una colaboración, patrocinio o simplemente quieres saludar? Envíame un mensaje.
+            {t('contact_section.subtitle')}
           </p>
           <form onSubmit={handleSubmit} className="space-y-6 text-left">
             <div>
-              <Label htmlFor="name">Nombre</Label>
+              <Label htmlFor="name">{t('contact_section.name_label')}</Label>
               <Input 
                 id="name" 
                 name="name" 
@@ -68,7 +69,7 @@ const Contacto = () => {
               />
             </div>
             <div>
-              <Label htmlFor="email">Email</Label>
+              <Label htmlFor="email">{t('contact_section.email_label')}</Label>
               <Input 
                 id="email" 
                 name="email" 
@@ -81,7 +82,7 @@ const Contacto = () => {
               />
             </div>
             <div>
-              <Label htmlFor="message">Mensaje</Label>
+              <Label htmlFor="message">{t('contact_section.message_label')}</Label>
               <Textarea 
                 id="message" 
                 name="message" 
@@ -94,7 +95,7 @@ const Contacto = () => {
               />
             </div>
             <Button type="submit" className="w-full bg-purple-600 hover:bg-purple-700" disabled={isSubmitting}>
-              {isSubmitting ? "Enviando..." : "Enviar Mensaje"}
+              {isSubmitting ? t('contact_section.submitting_button') : t('contact_section.submit_button')}
             </Button>
           </form>
         </div>

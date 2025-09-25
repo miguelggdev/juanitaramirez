@@ -1,26 +1,29 @@
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Handshake, Building } from "lucide-react";
-
-const sponsors = [
-  {
-    name: "Marca Deportiva",
-    description: "Equipamiento de alto rendimiento.",
-    logo: <Building className="h-10 w-10 text-gray-400" />,
-  },
-  {
-    name: "Nutrición Pro",
-    description: "Suplementos para atletas de élite.",
-    logo: <Building className="h-10 w-10 text-gray-400" />,
-  },
-];
+import { useTranslation } from 'react-i18next';
 
 const Patrocinadores = () => {
+  const { t } = useTranslation();
+
+  const sponsors = [
+    {
+      name: t('sponsors.sponsor1_name'),
+      description: t('sponsors.sponsor1_description'),
+      logo: <Building className="h-10 w-10 text-gray-400" />,
+    },
+    {
+      name: t('sponsors.sponsor2_name'),
+      description: t('sponsors.sponsor2_description'),
+      logo: <Building className="h-10 w-10 text-gray-400" />,
+    },
+  ];
+
   return (
     <section id="patrocinadores" className="py-20 sm:py-32">
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 tracking-tight">
-          Alianzas Estratégicas
+          {t('sponsors.title')}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {sponsors.map((sponsor, index) => (
@@ -36,9 +39,9 @@ const Patrocinadores = () => {
           ))}
           <Card className="bg-purple-900/30 backdrop-blur-md border border-purple-400 flex flex-col items-center justify-center text-center p-6 shadow-lg shadow-purple-500/20">
             <Handshake className="h-10 w-10 text-purple-400 mb-4" />
-            <CardTitle className="mb-2 text-white font-bold">Tu Empresa Aquí</CardTitle>
-            <CardDescription className="mb-4 text-white">Únete a mi equipo y creemos un impacto juntos.</CardDescription>
-            <Button variant="outline" className="border-white text-white hover:bg-white/10">Conviértete en Patrocinador</Button>
+            <CardTitle className="mb-2 text-white font-bold">{t('sponsors.your_company_title')}</CardTitle>
+            <CardDescription className="mb-4 text-white">{t('sponsors.your_company_description')}</CardDescription>
+            <Button variant="outline" className="border-white text-white hover:bg-white/10">{t('sponsors.become_sponsor_button')}</Button>
           </Card>
         </div>
       </div>

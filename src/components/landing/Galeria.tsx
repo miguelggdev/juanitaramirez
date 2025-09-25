@@ -6,6 +6,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { useTranslation } from 'react-i18next';
 
 const images = [
   "/images/imag1.jpeg",
@@ -19,11 +20,13 @@ const images = [
 ];
 
 const Galeria = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="galeria" className="py-20 sm:py-32 bg-black text-white">
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 tracking-tight">
-          Galería
+          {t('gallery.title')}
         </h2>
         <Carousel className="w-full max-w-4xl mx-auto" opts={{ loop: true }}>
           <CarouselContent>

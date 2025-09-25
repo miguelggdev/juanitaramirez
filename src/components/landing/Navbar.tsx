@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Instagram, Languages, Sun, Moon, Menu, Facebook, Mail, Phone } from "lucide-react";
 import { useState } from "react";
-import { useTranslation } from 'react-i18next'; // Import useTranslation
+import { useTranslation } from 'react-i18next';
 
 const NavLink = ({ href, children }) => (
   <a href={href} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">
@@ -28,16 +28,21 @@ const MobileNavLink = ({ href, children }) => (
 
 const Navbar = () => {
   const [isDarkTheme, setIsDarkTheme] = useState(true);
-  const { t, i18n } = useTranslation(); // Initialize useTranslation
+  const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
   };
 
-  // Define languages with their codes
   const languages = [
     { name: t("languages.spanish"), code: "es" },
     { name: t("languages.english"), code: "en" },
+    { name: t("languages.french"), code: "fr" },
+    { name: t("languages.italian"), code: "it" },
+    { name: t("languages.portuguese"), code: "pt" },
+    { name: t("languages.german"), code: "de" },
+    { name: t("languages.chinese"), code: "zh" },
+    { name: t("languages.japanese"), code: "ja" },
   ];
 
   return (
@@ -52,7 +57,6 @@ const Navbar = () => {
           <span>Juanita Ramírez</span>
         </a>
         
-        {/* Desktop Navigation */}
         <nav className="hidden items-center gap-6 md:flex">
           <NavLink href="#perfil">{t('navbar.profile')}</NavLink>
           <NavLink href="#logros">{t('navbar.achievements')}</NavLink>
@@ -88,7 +92,6 @@ const Navbar = () => {
           </Button>
         </div>
 
-        {/* Mobile Navigation */}
         <div className="md:hidden">
           <Sheet>
             <SheetTrigger asChild>

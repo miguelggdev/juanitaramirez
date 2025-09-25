@@ -5,37 +5,39 @@ import { Progress } from "@/components/ui/progress";
 import { Button } from "@/components/ui/button";
 import { CheckCircle } from "lucide-react";
 import PaymentModal from "./PaymentModal";
-
-const wishlistItems = [
-  { name: "Nuevos Patines de Competencia", goal: 1500, current: 650 },
-  { name: "Viaje a Campeonato Mundial", goal: 3000, current: 1200 },
-  { name: "Equipo de Recuperación", goal: 800, current: 750 },
-];
-
-const fanClubTiers = [
-  { name: "Bronce", price: 5, features: ["Acceso a newsletter", "Mención en redes"] },
-  { name: "Plata", price: 15, features: ["Beneficios Bronce", "Video de agradecimiento", "Contenido exclusivo"] },
-  { name: "Oro", price: 50, features: ["Beneficios Plata", "Merchandising oficial", "Videollamada grupal"] },
-];
+import { useTranslation } from 'react-i18next';
 
 const Apoyame = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const { t } = useTranslation();
+
+  const wishlistItems = [
+    { name: t('support_me_section.wishlist_items.item1_name'), goal: 1500, current: 650 },
+    { name: t('support_me_section.wishlist_items.item2_name'), goal: 3000, current: 1200 },
+    { name: t('support_me_section.wishlist_items.item3_name'), goal: 800, current: 750 },
+  ];
+
+  const fanClubTiers = [
+    { name: t('support_me_section.fanclub_tiers.bronze_name'), price: 5, features: [t('support_me_section.fanclub_tiers.bronze_feature1'), t('support_me_section.fanclub_tiers.bronze_feature2')] },
+    { name: t('support_me_section.fanclub_tiers.silver_name'), price: 15, features: [t('support_me_section.fanclub_tiers.silver_feature1'), t('support_me_section.fanclub_tiers.silver_feature2'), t('support_me_section.fanclub_tiers.silver_feature3')] },
+    { name: t('support_me_section.fanclub_tiers.gold_name'), price: 50, features: [t('support_me_section.fanclub_tiers.gold_feature1'), t('support_me_section.fanclub_tiers.gold_feature2'), t('support_me_section.fanclub_tiers.gold_feature3')] },
+  ];
 
   return (
     <>
       <section id="apoyame" className="py-20 sm:py-32">
         <div className="container mx-auto px-4 md:px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 tracking-tight">
-            Únete a mi Equipo
+            {t('support_me_section.title')}
           </h2>
           <p className="text-center text-gray-300 max-w-2xl mx-auto mb-12">
-            Tu apoyo es fundamental para alcanzar mis metas. Cada contribución me acerca más a la cima.
+            {t('support_me_section.subtitle')}
           </p>
           <Tabs defaultValue="wishlist" className="w-full max-w-4xl mx-auto">
             <TabsList className="grid w-full grid-cols-3 bg-black/20 backdrop-blur-md border border-white/10">
-              <TabsTrigger value="wishlist">Lista de Deseos</TabsTrigger>
-              <TabsTrigger value="fanclub">Club de Fans</TabsTrigger>
-              <TabsTrigger value="donate">Aporte Único</TabsTrigger>
+              <TabsTrigger value="wishlist">{t('support_me_section.tabs.wishlist')}</TabsTrigger>
+              <TabsTrigger value="fanclub">{t('support_me_section.tabs.fanclub')}</TabsTrigger>
+              <TabsTrigger value="donate">{t('support_me_section.tabs.one_time_donation')}</TabsTrigger>
             </TabsList>
             <TabsContent value="wishlist" className="mt-8">
               <div className="grid gap-6">
@@ -46,10 +48,10 @@ const Apoyame = () => {
                     </CardHeader>
                     <CardContent>
                       <Progress value={(item.current / item.goal) * 100} className="w-full" />
-                      <p className="text-sm text-gray-400 mt-2">${item.current} de ${item.goal} recaudados</p>
+                      <p className="text-sm text-gray-400 mt-2">{t('support_me_section.wishlist_items.item1_raised', { current: item.current, goal: item.goal })}</p>
                     </CardContent>
                     <CardFooter>
-                      <Button onClick={() => setIsModalOpen(true)} className="bg-purple-600 hover:bg-purple-700">Aportar</Button>
+                      <Button onClick={() => setIsModalOpen(true)} className="bg-purple-600 hover:bg-purple-700">{t('support_me_section.wishlist_items.contribute_button')}</Button>
                     </CardFooter>
                   </Card>
                 ))}
@@ -73,7 +75,7 @@ const Apoyame = () => {
                       </ul>
                     </CardContent>
                     <CardFooter>
-                      <Button onClick={() => setIsModalOpen(true)} className="w-full bg-purple-600 hover:bg-purple-700">Unirme</Button>
+                      <Button onClick={() => setIsModalOpen(true)} className="w-full bg-purple-600 hover:bg-purple-700">{t('support_me_section.fanclub_tiers.join_button')}</Button>
                     </CardFooter>
                   </Card>
                 ))}
@@ -81,9 +83,9 @@ const Apoyame = () => {
             </TabsContent>
             <TabsContent value="donate" className="mt-8">
               <Card className="bg-white/5 backdrop-blur-md border border-white/10 text-center p-8">
-                <CardTitle className="text-white font-bold">Realiza una Donación Única</CardTitle>
-                <CardDescription className="mt-2 mb-6">Cualquier cantidad hace una gran diferencia.</CardDescription>
-                <Button onClick={() => setIsModalOpen(true)} size="lg" className="bg-purple-600 hover:bg-purple-700">Donar Ahora</Button>
+                <CardTitle className="text-white font-bold">{t('support_me_section.donate_card.title')}</CardTitle>
+                <CardDescription className="mt-2 mb-6">{t('support_me_section.donate_card.description')}</CardDescription>
+                <Button onClick={() => setIsModalOpen(true)} size="lg" className="bg-purple-600 hover:bg-purple-700">{t('support_me_section.donate_card.donate_button')}</Button>
               </Card>
             </TabsContent>
           </Tabs>

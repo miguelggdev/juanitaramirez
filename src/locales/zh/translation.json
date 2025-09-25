@@ -1,0 +1,159 @@
+{
+  "navbar": {
+    "profile": "个人资料",
+    "achievements": "成就",
+    "gallery": "相册",
+    "sponsorship": "赞助",
+    "support_me": "支持我",
+    "contact": "联系"
+  },
+  "hero": {
+    "title": "艾米·胡安妮塔·拉米雷斯·莫拉",
+    "subtitle": "高水平运动员",
+    "support_button": "支持我",
+    "contact_button": "联系我"
+  },
+  "about_me": {
+    "title": "关于我",
+    "description": "我的生活就是赛道的节奏。作为一名高水平运动员，每一次训练和比赛都是对我梦想的承诺：永远尽我所能，超越极限。速度滑冰是我的热情和语言，我在这里将纪律转化为进步，将挑战转化为胜利。正是这种决心每天都驱使我走得更远，因为当你投入心血和热情时，没有目标是无法实现的。",
+    "tags": {
+      "tag1": "#高水平",
+      "tag2": "#轮上激情",
+      "tag3": "#速度滑冰",
+      "tag4": "#纪律"
+    }
+  },
+  "my_path": {
+    "title": "我的历程",
+    "description": "从我第一次踏上轮滑鞋开始，我就知道我的位置在赛道上。我的历程不仅仅是一系列的比赛，更是一个关于毅力、牺牲和对速度不懈热情的故事。每一天都是变得更强、更快、更有韧性的机会。我的目标不仅是赢得奖牌，还要激励他人以同样的决心追求自己的梦想。",
+    "achievements": {
+      "title": "主要成就",
+      "item1_year": "2023年",
+      "item1_title": "全国锦标赛",
+      "item1_description": "500米短跑金牌。",
+      "item2_year": "2022年",
+      "item2_title": "泛美青年运动会",
+      "item2_description": "资格赛和出色表现。",
+      "item3_year": "2021年",
+      "item3_title": "地区纪录",
+      "item3_description": "青年1000米类别新纪录。"
+    },
+    "gallery": {
+      "title": "相册"
+    },
+    "values": {
+      "title": "我的价值观",
+      "discipline_title": "纪律",
+      "discipline_description": "每天致力于卓越和持续改进。",
+      "passion_title": "热情",
+      "passion_description": "驱动每次训练和比赛的引擎。",
+      "resilience_title": "韧性",
+      "resilience_description": "克服障碍，将挑战转化为机遇。",
+      "commitment_title": "承诺",
+      "commitment_description": "忠于我的目标、我的团队和我的赞助商。",
+      "teamwork_title": "团队合作",
+      "teamwork_description": "团结就是力量。合作实现共同目标。",
+      "respect_title": "尊重",
+      "respect_description": "尊重对手、队友和比赛规则。",
+      "self_improvement_title": "自我提升",
+      "self_improvement_description": "不断渴望打破自己的极限。",
+      "integrity_title": "正直",
+      "integrity_description": "诚实竞争，时刻保持公平竞赛。"
+    },
+    "why_sponsor_me": {
+      "title": "为什么赞助我？",
+      "subtitle": "投资我的职业生涯不仅仅是赞助；这是一个战略联盟，让我们共同成长，达到新的高度。",
+      "benefit1_title": "指数级品牌曝光",
+      "benefit1_description": "将您的品牌与速度和成功联系起来。在国家和国际比赛、社交媒体和传播渠道中获得曝光，触及成千上万的体育爱好者。",
+      "benefit2_title": "与积极价值观的联系",
+      "benefit2_description": "将您的公司与纪律、自我提升和热情的价值观相结合，可以激发信任和忠诚。展示您对年轻才俊和体育卓越的承诺。",
+      "benefit3_title": "社会和社区影响",
+      "benefit3_description": "您的支持不仅推动了我的职业生涯，还激励了新一代的运动员。通过体育成为社区的支柱和变革的推动者。",
+      "benefit4_title": "可观的投资回报",
+      "benefit4_description": "我提供独特的营销机会，从独家社交媒体内容到在我的装备上展示您的标志。在支持梦想的同时，产生可衡量的回报。"
+    },
+    "sponsors": {
+      "title": "战略联盟",
+      "sponsor1_name": "运动品牌",
+      "sponsor1_description": "高性能装备。",
+      "sponsor2_name": "专业营养",
+      "sponsor2_description": "精英运动员补充剂。",
+      "your_company_title": "您的公司在这里",
+      "your_company_description": "加入我的团队，让我们一起创造影响。",
+      "become_sponsor_button": "成为赞助商"
+    },
+    "support_me_section": {
+      "title": "加入我的团队",
+      "subtitle": "您的支持对我实现目标至关重要。每一次贡献都让我离顶峰更近一步。",
+      "tabs": {
+        "wishlist": "愿望清单",
+        "fanclub": "粉丝俱乐部",
+        "one_time_donation": "一次性捐赠"
+      },
+      "wishlist_items": {
+        "item1_name": "新比赛滑冰鞋",
+        "item1_raised": "已筹集 {{current}} / {{goal}}",
+        "item2_name": "世界锦标赛之旅",
+        "item2_raised": "已筹集 {{current}} / {{goal}}",
+        "item3_name": "恢复设备",
+        "item3_raised": "已筹集 {{current}} / {{goal}}",
+        "contribute_button": "贡献"
+      },
+      "fanclub_tiers": {
+        "bronze_name": "青铜",
+        "bronze_feature1": "通讯访问",
+        "bronze_feature2": "社交媒体提及",
+        "silver_name": "白银",
+        "silver_feature1": "青铜福利",
+        "silver_feature2": "感谢视频",
+        "silver_feature3": "独家内容",
+        "gold_name": "黄金",
+        "gold_feature1": "白银福利",
+        "gold_feature2": "官方商品",
+        "gold_feature3": "团体视频通话",
+        "join_button": "加入"
+      },
+      "donate_card": {
+        "title": "进行一次性捐赠",
+        "description": "任何金额都会产生巨大影响。",
+        "donate_button": "立即捐赠"
+      }
+    },
+    "payment_modal": {
+      "title": "付款方式",
+      "description": "选择您喜欢的付款方式。感谢您的支持！",
+      "nequi_title": "Nequi",
+      "nequi_name": "胡安·拉米雷斯 C.",
+      "nequi_copy_success": "号码已复制到剪贴板！",
+      "paypal_title": "PayPal",
+      "paypal_description": "点击安全捐赠",
+      "close_button": "关闭"
+    },
+    "contact_section": {
+      "title": "保持联系",
+      "subtitle": "对合作、赞助感兴趣，或者只是想打个招呼？给我发个消息。",
+      "name_label": "姓名",
+      "email_label": "电子邮件",
+      "message_label": "信息",
+      "submit_button": "发送信息",
+      "submitting_button": "发送中...",
+      "success_message": "信息发送成功！我会尽快与您联系。",
+      "error_message": "发送信息时出错。请重试。",
+      "connection_error_message": "出现连接错误。请重试。"
+    },
+    "footer": {
+      "copyright": "© {{year}} 艾米·胡安妮塔·拉米雷斯·莫拉. 版权所有。"
+    },
+    "languages": {
+      "spanish": "西班牙语",
+      "english": "英语",
+      "french": "法语",
+      "italian": "意大利语",
+      "portuguese": "葡萄牙语",
+      "german": "德语",
+      "chinese": "中文",
+      "japanese": "日语"
+    },
+    "footer_credit": "由 ArkanaTech 设计和开发"
+  }
+}

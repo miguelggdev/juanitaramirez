@@ -1,0 +1,159 @@
+{
+  "navbar": {
+    "profile": "Profilo",
+    "achievements": "Risultati",
+    "gallery": "Galleria",
+    "sponsorship": "Sponsorizzazione",
+    "support_me": "Sostienimi",
+    "contact": "Contatto"
+  },
+  "hero": {
+    "title": "Emmy Juanita Ramírez Mora",
+    "subtitle": "Atleta di Alto Livello",
+    "support_button": "Sostienimi",
+    "contact_button": "Contattami"
+  },
+  "about_me": {
+    "title": "Su di me",
+    "description": "La mia vita è il ritmo della pista. Come atleta di alto livello, ogni allenamento e competizione è un impegno verso il mio sogno: dare sempre il massimo per superare i miei limiti. Il pattinaggio di velocità è la mia passione e il mio linguaggio, dove trasformo la disciplina in progresso e le sfide in trionfi. Questa è la determinazione che mi spinge ad andare oltre ogni giorno, perché quando ci metti cuore e passione, non c'è obiettivo che non si possa raggiungere.",
+    "tags": {
+      "tag1": "#AltoLivello",
+      "tag2": "#PassioneSulleRuote",
+      "tag3": "#PattinaggioDiVelocità",
+      "tag4": "#Disciplina"
+    }
+  },
+  "my_path": {
+    "title": "Il Mio Percorso",
+    "description": "Fin dai miei primi passi sulle ruote, sapevo che il mio posto era sulla pista. Il mio percorso non è solo una serie di competizioni, ma una storia di perseveranza, sacrificio e una passione incrollabile per la velocità. Ogni giorno è un'opportunità per essere più forte, più veloce e più resiliente. Il mio obiettivo non è solo vincere medaglie, ma ispirare gli altri a perseguire i propri sogni con la stessa determinazione."
+  },
+  "achievements": {
+    "title": "Risultati Principali",
+    "item1_year": "2023",
+    "item1_title": "Campionato Nazionale",
+    "item1_description": "Medaglia d'Oro nei 500m Sprint.",
+    "item2_year": "2022",
+    "item2_title": "Giochi Panamericani Giovanili",
+    "item2_description": "Qualificazione e partecipazione di rilievo.",
+    "item3_year": "2021",
+    "item3_title": "Record Regionale",
+    "item3_description": "Nuovo record nella categoria giovanile dei 1000m."
+  },
+  "gallery": {
+    "title": "Galleria"
+  },
+  "values": {
+    "title": "I Miei Valori",
+    "discipline_title": "Disciplina",
+    "discipline_description": "Impegno quotidiano per l'eccellenza e il miglioramento continuo.",
+    "passion_title": "Passione",
+    "passion_description": "Il motore che guida ogni allenamento e competizione.",
+    "resilience_title": "Resilienza",
+    "resilience_description": "Superare gli ostacoli e trasformare le sfide in opportunità.",
+    "commitment_title": "Impegno",
+    "commitment_description": "Lealtà ai miei obiettivi, alla mia squadra e ai miei sponsor.",
+    "teamwork_title": "Lavoro di Squadra",
+    "teamwork_description": "L'unione fa la forza. Collaborare per raggiungere obiettivi comuni.",
+    "respect_title": "Rispetto",
+    "respect_description": "Valorizzare rivali, compagni di squadra e le regole del gioco.",
+    "self_improvement_title": "Superamento",
+    "self_improvement_description": "Il desiderio costante di superare i miei limiti.",
+    "integrity_title": "Integrità",
+    "integrity_description": "Competere con onestà e giocare pulito in ogni momento."
+  },
+  "why_sponsor_me": {
+    "title": "Perché Sponsorizzarmi?",
+    "subtitle": "Investire nella mia carriera è più di una sponsorizzazione; è un'alleanza strategica per crescere insieme e raggiungere nuove vette.",
+    "benefit1_title": "Visibilità Esponenziale del Marchio",
+    "benefit1_description": "Associa il tuo marchio alla velocità e al successo. Ottieni visibilità in competizioni nazionali e internazionali, sui social media e nei mezzi di comunicazione, raggiungendo migliaia di fan appassionati di sport.",
+    "benefit2_title": "Associazione con Valori Positivi",
+    "benefit2_description": "Allineare la tua azienda con i valori di disciplina, superamento e passione ispira fiducia e lealtà. Dimostra il tuo impegno per i giovani talenti e l'eccellenza sportiva.",
+    "benefit3_title": "Impatto Sociale e Comunitario",
+    "benefit3_description": "Il tuo sostegno non solo spinge la mia carriera, ma ispira anche una nuova generazione di atleti. Diventa un pilastro per la comunità e un agente di cambiamento attraverso lo sport.",
+    "benefit4_title": "Ritorno sull'Investimento Tangibile",
+    "benefit4_description": "Offro opportunità di marketing uniche, da contenuti esclusivi sui social media alla presenza del tuo logo sulla mia attrezzatura. Genera un ritorno misurabile sostenendo un sogno."
+  },
+  "sponsors": {
+    "title": "Alleanze Strategiche",
+    "sponsor1_name": "Marchio Sportivo",
+    "sponsor1_description": "Attrezzatura ad alte prestazioni.",
+    "sponsor2_name": "Nutrizione Pro",
+    "sponsor2_description": "Integratori per atleti d'élite.",
+    "your_company_title": "La Tua Azienda Qui",
+    "your_company_description": "Unisciti alla mia squadra e creiamo un impatto insieme.",
+    "become_sponsor_button": "Diventa Sponsor"
+  },
+  "support_me_section": {
+    "title": "Unisciti alla Mia Squadra",
+    "subtitle": "Il tuo sostegno è fondamentale per raggiungere i miei obiettivi. Ogni contributo mi avvicina alla vetta.",
+    "tabs": {
+      "wishlist": "Lista dei Desideri",
+      "fanclub": "Fan Club",
+      "one_time_donation": "Donazione Unica"
+    },
+    "wishlist_items": {
+      "item1_name": "Nuovi Pattini da Competizione",
+      "item1_raised": "{{current}} di {{goal}} raccolti",
+      "item2_name": "Viaggio al Campionato del Mondo",
+      "item2_raised": "{{current}} di {{goal}} raccolti",
+      "item3_name": "Attrezzatura per il Recupero",
+      "item3_raised": "{{current}} di {{goal}} raccolti",
+      "contribute_button": "Contribuisci"
+    },
+    "fanclub_tiers": {
+      "bronze_name": "Bronzo",
+      "bronze_feature1": "Accesso alla newsletter",
+      "bronze_feature2": "Menzione sui social",
+      "silver_name": "Argento",
+      "silver_feature1": "Vantaggi Bronzo",
+      "silver_feature2": "Video di ringraziamento",
+      "silver_feature3": "Contenuti esclusivi",
+      "gold_name": "Oro",
+      "gold_feature1": "Vantaggi Argento",
+      "gold_feature2": "Merchandising ufficiale",
+      "gold_feature3": "Videochiamata di gruppo",
+      "join_button": "Unisciti"
+    },
+    "donate_card": {
+      "title": "Fai una Donazione Unica",
+      "description": "Qualsiasi importo fa una grande differenza.",
+      "donate_button": "Dona Ora"
+    }
+  },
+  "payment_modal": {
+    "title": "Opzioni di Pagamento",
+    "description": "Scegli il tuo metodo di pagamento preferito. Grazie per il tuo sostegno!",
+    "nequi_title": "Nequi",
+    "nequi_name": "Juan Ramírez C.",
+    "nequi_copy_success": "Numero copiato negli appunti!",
+    "paypal_title": "PayPal",
+    "paypal_description": "Clicca per donare in modo sicuro",
+    "close_button": "Chiudi"
+  },
+  "contact_section": {
+    "title": "Mettiti in Contatto",
+    "subtitle": "Interessato a una collaborazione, sponsorizzazione o semplicemente vuoi salutare? Inviami un messaggio.",
+    "name_label": "Nome",
+    "email_label": "Email",
+    "message_label": "Messaggio",
+    "submit_button": "Invia Messaggio",
+    "submitting_button": "Invio in corso...",
+    "success_message": "Messaggio inviato con successo! Ti contatterò presto.",
+    "error_message": "Si è verificato un errore durante l'invio del messaggio. Per favore, riprova.",
+    "connection_error_message": "Si è verificato un errore di connessione. Per favore, riprova."
+  },
+  "footer": {
+    "copyright": "© {{year}} Emmy Juanita Ramirez Mora. Tutti i diritti riservati."
+  },
+  "languages": {
+    "spanish": "Spagnolo",
+    "english": "Inglese",
+    "french": "Francese",
+    "italian": "Italiano",
+    "portuguese": "Portoghese",
+    "german": "Tedesco",
+    "chinese": "Cinese",
+    "japanese": "Giapponese"
+  },
+  "footer_credit": "Progettato e sviluppato da ArkanaTech"
+}

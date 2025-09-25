@@ -14,7 +14,7 @@ const Contacto = () => {
           <p className="text-gray-300 mb-8">
             ¿Interesado en una colaboración, patrocinio o simplemente quieres saludar? Envíame un mensaje.
           </p>
-          <form action="#" method="POST" className="space-y-6 text-left">
+          <form action="mailto:juanitaramirezmora@gmail.com" method="POST" encType="text/plain" className="space-y-6 text-left">
             <div>
               <Label htmlFor="name">Nombre</Label>
               <Input id="name" name="name" type="text" required className="bg-white/5 border-white/10 mt-2 focus:border-purple-500 transition-colors" />

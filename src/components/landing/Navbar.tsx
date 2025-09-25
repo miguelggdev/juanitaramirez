@@ -36,13 +36,8 @@ const Navbar = () => {
 
   // Define languages with their codes
   const languages = [
+    { name: t("languages.spanish"), code: "es" },
     { name: t("languages.english"), code: "en" },
-    { name: t("languages.french"), code: "fr" },
-    { name: t("languages.italian"), code: "it" },
-    { name: t("languages.portuguese"), code: "pt" },
-    { name: t("languages.german"), code: "de" },
-    { name: t("languages.chinese"), code: "zh" },
-    { name: t("languages.japanese"), code: "ja" },
   ];
 
   return (

@@ -16,7 +16,7 @@ const Contacto = () => {
     setIsSubmitting(true);
 
     // Replace with your actual Formspree form ID
-    const formspreeUrl = "https://formspree.io/f/yourformid"; 
+    const formspreeUrl = "https://formspree.io/f/xvgwgqwl"; 
 
     try {
       const response = await fetch(formspreeUrl, {

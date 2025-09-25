@@ -1,4 +1,4 @@
-import { Instagram, Twitter, Facebook, Youtube } from "lucide-react";
+import { Instagram, Twitter, Facebook, Youtube, Mail } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -12,6 +12,7 @@ const Footer = () => {
           <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><Twitter size={20} /></a>
           <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><Facebook size={20} /></a>
           <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><Youtube size={20} /></a>
+          <a href="mailto:juanitaramirezmora@gmail.com" className="hover:text-white transition-colors"><Mail size={20} /></a>
         </div>
       </div>
     </footer>

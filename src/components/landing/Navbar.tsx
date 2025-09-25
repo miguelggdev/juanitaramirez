@@ -55,6 +55,7 @@ const Navbar = () => {
           <NavLink href="#perfil">Perfil</NavLink>
           <NavLink href="#logros">Logros</NavLink>
           <NavLink href="#galeria">Galería</NavLink>
+          <NavLink href="#patrocinio">Patrocinio</NavLink>
           <NavLink href="#apoyame">Apóyame</NavLink>
           <NavLink href="#contacto">Contacto</NavLink>
         </nav>
@@ -98,6 +99,7 @@ const Navbar = () => {
                 <MobileNavLink href="#perfil">Perfil</MobileNavLink>
                 <MobileNavLink href="#logros">Logros</MobileNavLink>
                 <MobileNavLink href="#galeria">Galería</MobileNavLink>
+                <MobileNavLink href="#patrocinio">Patrocinio</MobileNavLink>
                 <MobileNavLink href="#apoyame">Apóyame</MobileNavLink>
                 <MobileNavLink href="#contacto">Contacto</MobileNavLink>
               </nav>

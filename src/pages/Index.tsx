@@ -5,6 +5,7 @@ import MiCamino from "@/components/landing/MiCamino";
 import Logros from "@/components/landing/Logros";
 import Galeria from "@/components/landing/Galeria";
 import Valores from "@/components/landing/Valores";
+import PorquePatrocinarme from "@/components/landing/PorquePatrocinarme";
 import Patrocinadores from "@/components/landing/Patrocinadores";
 import Apoyame from "@/components/landing/Apoyame";
 import Contacto from "@/components/landing/Contacto";
@@ -24,6 +25,7 @@ const Index = () => {
           <AnimatedSection><Logros /></AnimatedSection>
           <AnimatedSection><Galeria /></AnimatedSection>
           <AnimatedSection><Valores /></AnimatedSection>
+          <AnimatedSection><PorquePatrocinarme /></AnimatedSection>
           <AnimatedSection><Patrocinadores /></AnimatedSection>
           <AnimatedSection><Apoyame /></AnimatedSection>
           <AnimatedSection><Contacto /></AnimatedSection>

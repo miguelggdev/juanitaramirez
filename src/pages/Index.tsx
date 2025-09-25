@@ -11,7 +11,7 @@ import Apoyame from "@/components/landing/Apoyame";
 import Contacto from "@/components/landing/Contacto";
 import Footer from "@/components/landing/Footer";
 import AnimatedSection from "@/components/landing/AnimatedSection";
-import { MadeWithDyad } from "@/components/made-with-dyad";
+import { FooterCredit } from "@/components/FooterCredit";
 
 const Index = () => {
   return (
@@ -32,7 +32,7 @@ const Index = () => {
         </div>
       </main>
       <Footer />
-      <MadeWithDyad />
+      <FooterCredit />
     </div>
   );
 };

@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 const backgroundImages = [
   "/images/imag1.jpeg",
-  "/images/logo-bg.png",
+  "/images/JuanitaRamirez.png", // Se ha cambiado a JuanitaRamirez.png
 ];
 
 const Hero = () => {

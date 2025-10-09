@@ -22,7 +22,7 @@ const PaymentModal = ({ isOpen, onClose }) => {
 
   return (
     <AlertDialog open={isOpen} onOpenChange={onClose}>
-      <AlertDialogContent className="bg-gray-900 text-white border-purple-800">
+      <AlertDialogContent className="bg-gray-900 text-white border-purple-800 w-full max-w-4xl">
         <AlertDialogHeader>
           <AlertDialogTitle>{t('payment_modal.title')}</AlertDialogTitle>
           <AlertDialogDescription className="text-gray-400">
@@ -47,7 +47,7 @@ const PaymentModal = ({ isOpen, onClose }) => {
                 <CreditCard className="h-12 w-12 mb-3 text-blue-400"/>
                 <p className="font-bold text-lg mb-2">{t('payment_modal.paypal_title')}</p>
                 <p className="text-gray-300 text-sm">{t('payment_modal.paypal_description')}</p>
-                <p className="font-mono text-blue-300 mt-2">paypal.me/emmyjuanita</p>
+                <p className="font-mono text-blue-300 mt-2 break-all">paypal.me/emmyjuanita</p>
             </a>
             {/* Banco Caja Social */}
             <div className="flex flex-col items-center justify-center p-6 bg-gray-800/50 rounded-lg border border-gray-700 hover:border-green-500 hover:bg-gray-700/50 transition-all text-center">

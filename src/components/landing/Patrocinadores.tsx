@@ -41,7 +41,7 @@ const Patrocinadores = () => {
             <Handshake className="h-10 w-10 text-purple-400 mb-4" />
             <CardTitle className="mb-2 text-white font-bold">{t('sponsors.your_company_title')}</CardTitle>
             <CardDescription className="mb-4 text-white">{t('sponsors.your_company_description')}</CardDescription>
-            <Button variant="outline" className="border-white text-white hover:bg-white/10">{t('sponsors.become_sponsor_button')}</Button>
+            <Button variant="outline" className="border-white text-white bg-transparent hover:bg-white/10">{t('sponsors.become_sponsor_button')}</Button>
           </Card>
         </div>
       </div>

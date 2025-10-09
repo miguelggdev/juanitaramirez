@@ -29,15 +29,21 @@
   },
   "achievements": {
     "title": "主な実績",
-    "item1_year": "2023年",
-    "item1_title": "全国選手権",
-    "item1_description": "500mスプリントで金メダル。",
-    "item2_year": "2022年",
-    "item2_title": "ジュニアパンアメリカン競技大会",
-    "item2_description": "予選通過と優れた成績。",
-    "item3_year": "2021年",
-    "item3_title": "地域記録",
-    "item3_description": "ユース1000mカテゴリーで新記録。"
+    "item_2025_year": "2025年",
+    "item_2025_title": "スピード種目でメダリスト",
+    "item_2025_description": "スペイン、フランス、ポルトガルの国際トラックでメダリスト",
+    "item_2024_year": "2024年",
+    "item_2024_title": "スピードおよび長距離種目でメダリスト",
+    "item_2024_description": "スピードおよび長距離種目でメダリスト",
+    "item_2023_year": "2023年",
+    "item_2023_title": "全国選手権",
+    "item_2023_description": "500mスプリントで金メダル。",
+    "item_2022_year": "2022年",
+    "item_2022_title": "ジュニアパンアメリカン競技大会",
+    "item_2022_description": "予選通過と優れた成績。",
+    "item_2021_year": "2021年",
+    "item_2021_title": "地域記録",
+    "item_2021_description": "ユース1000mカテゴリーで新記録。"
   },
   "gallery": {
     "title": "ギャラリー"

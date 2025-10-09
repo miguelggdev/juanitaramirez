@@ -29,15 +29,21 @@
   },
   "achievements": {
     "title": "Logros Destacados",
-    "item1_year": "2023",
-    "item1_title": "Campeonato Nacional",
-    "item1_description": "Medalla de Oro en 500m Sprint.",
-    "item2_year": "2022",
-    "item2_title": "Juegos Panamericanos Junior",
-    "item2_description": "Clasificación y participación destacada.",
-    "item3_year": "2021",
-    "item3_title": "Récord Regional",
-    "item3_description": "Nuevo récord en la categoría juvenil de 1000m."
+    "item_2025_year": "2025",
+    "item_2025_title": "Medallista en pruebas de velocidad",
+    "item_2025_description": "Medallista en pistas Internacionales España, Francia y Portugal",
+    "item_2024_year": "2024",
+    "item_2024_title": "Medallista en pruebas de velocidad y fondo",
+    "item_2024_description": "Medallista en pruebas de velocidad y fondo",
+    "item_2023_year": "2023",
+    "item_2023_title": "Campeonato Nacional",
+    "item_2023_description": "Medalla de Oro en 500m Sprint.",
+    "item_2022_year": "2022",
+    "item_2022_title": "Juegos Panamericanos Junior",
+    "item_2022_description": "Clasificación y participación destacada.",
+    "item_2021_year": "2021",
+    "item_2021_title": "Récord Regional",
+    "item_2021_description": "Nuevo récord en la categoría juvenil de 1000m."
   },
   "gallery": {
     "title": "Galería"

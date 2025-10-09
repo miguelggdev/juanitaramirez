@@ -1,4 +1,4 @@
-import { Trophy, Medal, Calendar } from "lucide-react";
+import { Trophy, Medal, Calendar, Award } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useTranslation } from 'react-i18next';
 
@@ -7,21 +7,33 @@ const Logros = () => {
 
   const achievements = [
     {
-      year: t('achievements.item1_year'),
-      title: t('achievements.item1_title'),
-      description: t('achievements.item1_description'),
+      year: t('achievements.item_2025_year'),
+      title: t('achievements.item_2025_title'),
+      description: t('achievements.item_2025_description'),
+      icon: <Award className="h-6 w-6 text-yellow-400" />,
+    },
+    {
+      year: t('achievements.item_2024_year'),
+      title: t('achievements.item_2024_title'),
+      description: t('achievements.item_2024_description'),
       icon: <Trophy className="h-6 w-6 text-yellow-400" />,
     },
     {
-      year: t('achievements.item2_year'),
-      title: t('achievements.item2_title'),
-      description: t('achievements.item2_description'),
+      year: t('achievements.item_2023_year'),
+      title: t('achievements.item_2023_title'),
+      description: t('achievements.item_2023_description'),
+      icon: <Trophy className="h-6 w-6 text-yellow-400" />,
+    },
+    {
+      year: t('achievements.item_2022_year'),
+      title: t('achievements.item_2022_title'),
+      description: t('achievements.item_2022_description'),
       icon: <Medal className="h-6 w-6 text-slate-400" />,
     },
     {
-      year: t('achievements.item3_year'),
-      title: t('achievements.item3_title'),
-      description: t('achievements.item3_description'),
+      year: t('achievements.item_2021_year'),
+      title: t('achievements.item_2021_title'),
+      description: t('achievements.item_2021_description'),
       icon: <Calendar className="h-6 w-6 text-purple-400" />,
     },
   ];

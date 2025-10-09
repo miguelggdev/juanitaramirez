@@ -29,15 +29,21 @@
   },
   "achievements": {
     "title": "主要成就",
-    "item1_year": "2023年",
-    "item1_title": "全国锦标赛",
-    "item1_description": "500米短跑金牌。",
-    "item2_year": "2022年",
-    "item2_title": "泛美青年运动会",
-    "item2_description": "资格赛和出色表现。",
-    "item3_year": "2021年",
-    "item3_title": "地区纪录",
-    "item3_description": "青年1000米类别新纪录。"
+    "item_2025_year": "2025年",
+    "item_2025_title": "速度项目奖牌得主",
+    "item_2025_description": "在西班牙、法国和葡萄牙的国际赛道上获得奖牌",
+    "item_2024_year": "2024年",
+    "item_2024_title": "速度和长距离项目奖牌得主",
+    "item_2024_description": "速度和长距离项目奖牌得主",
+    "item_2023_year": "2023年",
+    "item_2023_title": "全国锦标赛",
+    "item_2023_description": "500米短跑金牌。",
+    "item_2022_year": "2022年",
+    "item_2022_title": "泛美青年运动会",
+    "item_2022_description": "资格赛和出色表现。",
+    "item_2021_year": "2021年",
+    "item_2021_title": "地区纪录",
+    "item_2021_description": "青年1000米类别新纪录。"
   },
   "gallery": {
     "title": "相册"

@@ -29,15 +29,21 @@
   },
   "achievements": {
     "title": "Principales Réalisations",
-    "item1_year": "2023",
-    "item1_title": "Championnat National",
-    "item1_description": "Médaille d'Or au 500m Sprint.",
-    "item2_year": "2022",
-    "item2_title": "Jeux Panaméricains Juniors",
-    "item2_description": "Qualification et participation remarquée.",
-    "item3_year": "2021",
-    "item3_title": "Record Régional",
-    "item3_description": "Nouveau record dans la catégorie jeunesse du 1000m."
+    "item_2025_year": "2025",
+    "item_2025_title": "Médaillée en épreuves de vitesse",
+    "item_2025_description": "Médaillée sur les pistes internationales en Espagne, France et Portugal",
+    "item_2024_year": "2024",
+    "item_2024_title": "Médaillée en épreuves de vitesse et de fond",
+    "item_2024_description": "Médaillée en épreuves de vitesse et de fond",
+    "item_2023_year": "2023",
+    "item_2023_title": "Championnat National",
+    "item_2023_description": "Médaille d'Or au 500m Sprint.",
+    "item_2022_year": "2022",
+    "item_2022_title": "Jeux Panaméricains Juniors",
+    "item_2022_description": "Qualification et participation remarquée.",
+    "item_2021_year": "2021",
+    "item_2021_title": "Record Régional",
+    "item_2021_description": "Nouveau record dans la catégorie jeunesse du 1000m."
   },
   "gallery": {
     "title": "Galerie"

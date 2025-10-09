@@ -29,15 +29,21 @@
   },
   "achievements": {
     "title": "Featured Achievements",
-    "item1_year": "2023",
-    "item1_title": "National Championship",
-    "item1_description": "Gold Medal in 500m Sprint.",
-    "item2_year": "2022",
-    "item2_title": "Junior Pan American Games",
-    "item2_description": "Qualification and outstanding participation.",
-    "item3_year": "2021",
-    "item3_title": "Regional Record",
-    "item3_description": "New record in the youth 1000m category."
+    "item_2025_year": "2025",
+    "item_2025_title": "Medalist in speed events",
+    "item_2025_description": "Medalist on international tracks in Spain, France, and Portugal",
+    "item_2024_year": "2024",
+    "item_2024_title": "Medalist in speed and distance events",
+    "item_2024_description": "Medalist in speed and distance events",
+    "item_2023_year": "2023",
+    "item_2023_title": "National Championship",
+    "item_2023_description": "Gold Medal in 500m Sprint.",
+    "item_2022_year": "2022",
+    "item_2022_title": "Junior Pan American Games",
+    "item_2022_description": "Qualification and outstanding participation.",
+    "item_2021_year": "2021",
+    "item_2021_title": "Regional Record",
+    "item_2021_description": "New record in the youth 1000m category."
   },
   "gallery": {
     "title": "Gallery"

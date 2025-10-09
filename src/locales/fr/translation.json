@@ -128,6 +128,9 @@
     "nequi_copy_success": "Numéro copié dans le presse-papiers !",
     "paypal_title": "PayPal",
     "paypal_description": "Cliquez pour donner en toute sécurité",
+    "banco_caja_social_title": "Banco Caja Social",
+    "banco_caja_social_name": "Juan Fredy Ramirez Llanos",
+    "banco_caja_social_account_type": "Compte d'épargne",
     "close_button": "Fermer"
   },
   "contact_section": {

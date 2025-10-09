@@ -128,6 +128,9 @@
     "nequi_copy_success": "番号がクリップボードにコピーされました！",
     "paypal_title": "PayPal",
     "paypal_description": "安全に寄付するにはクリックしてください",
+    "banco_caja_social_title": "バンコ・カハ・ソーシャル",
+    "banco_caja_social_name": "フアン・フレディ・ラミレス・リャノス",
+    "banco_caja_social_account_type": "普通預金口座",
     "close_button": "閉じる"
   },
   "contact_section": {

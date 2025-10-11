@@ -15,7 +15,7 @@ const VideoHighlight = () => {
             controls
             playsInline
             className="w-full h-full object-cover"
-            poster="/images/imag1.jpeg"
+            poster="images/imag1.jpeg"
           >
             {/* Reemplaza este video de ejemplo por el tuyo */}
             <source src="https://videos.pexels.com/video-files/8093321/8093321-hd_1920_1080_30fps.mp4" type="video/mp4" />

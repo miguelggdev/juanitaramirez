@@ -3,8 +3,8 @@ import { useState, useEffect } from "react";
 import { useTranslation } from 'react-i18next';
 
 const backgroundImages = [
-  "/images/imag1.jpeg",
-  "/images/JuanitaRamirez.png",
+  "images/imag1.jpeg",
+  "images/JuanitaRamirez.png",
 ];
 
 const Hero = () => {
@@ -36,7 +36,7 @@ const Hero = () => {
 
       <div className="relative z-20 flex flex-col items-center px-4">
         <img
-          src="/images/imag3a.jpg"
+          src="images/imag3a.jpg"
           alt="Emmy Juanita Ramirez Mora"
           className="w-36 h-36 rounded-full border-4 border-white/50 object-cover shadow-lg mb-6"
         />

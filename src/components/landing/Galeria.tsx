@@ -9,14 +9,14 @@ import {
 import { useTranslation } from 'react-i18next';
 
 const images = [
-  "/images/imag1.jpeg",
-  "/images/imag2.jpg",
-  "/images/imag3.jpg",
-  "/images/imag4.jpg",
-  "/images/imag5.jpg",
-  "/images/imag6.jpg",
-  "/images/imag7.jpg",
-  "/images/JuanitaRamirez.png",
+  "images/imag1.jpeg",
+  "images/imag2.jpg",
+  "images/imag3.jpg",
+  "images/imag4.jpg",
+  "images/imag5.jpg",
+  "images/imag6.jpg",
+  "images/imag7.jpg",
+  "images/JuanitaRamirez.png",
 ];
 
 const Galeria = () => {

@@ -3,8 +3,8 @@ import dyadComponentTagger from "@dyad-sh/react-vite-component-tagger";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
-export default defineConfig(() => ({
-  base: "/juanitaramirez/",
+export default defineConfig(({ mode }) => ({
+  base: mode === "production" ? "/juanitaramirez/" : "/",
   server: {
     host: "::",
     port: 8080,

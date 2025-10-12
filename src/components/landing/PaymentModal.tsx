@@ -36,8 +36,8 @@ const PaymentModal = ({ isOpen, onClose }) => {
                 <p className="font-bold text-lg mb-2">{t('payment_modal.nequi_title')}</p>
                 <p className="text-gray-300 text-sm">{t('payment_modal.nequi_name')}</p>
                 <div className="flex items-center gap-2 mt-2 bg-black/20 px-3 py-1 rounded-md">
-                    <p className="font-mono text-purple-300">311 554 1784</p>
-                    <Button variant="ghost" size="icon" className="h-8 w-8 text-gray-400 hover:text-white" onClick={() => handleCopy('3115541784')}>
+                    <p className="font-mono text-purple-300">311 554 1734</p>
+                    <Button variant="ghost" size="icon" className="h-8 w-8 text-gray-400 hover:text-white" onClick={() => handleCopy('3115541734')}>
                         <Copy className="h-4 w-4" />
                     </Button>
                 </div>
